@@ -1,6 +1,10 @@
+import Head from 'next/head';
+
 const Layout = ({ children }) => (
     <div className='container-div'>
-
+        <Head>
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+        </Head>
     <div className='inner-div'>
         <h2><span style={{color: '#E6296D'}}>ANUBHAV</span> BHAMBRI</h2>
         <nav>
@@ -83,6 +87,7 @@ const Layout = ({ children }) => (
     `}</style>
     <style global jsx>{`
     body {
+        font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 0;
     }

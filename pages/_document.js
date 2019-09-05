@@ -18,7 +18,7 @@ export default class MyDocument extends Document {
                 </body>
                 <style global jsx>{`
                     body {
-                        font-family: 'Roboto', sans-serif;
+                        // font-family: 'Roboto', sans-serif;
                         margin: 0;
                         padding: 0;
                     }
