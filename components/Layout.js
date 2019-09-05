@@ -2,7 +2,7 @@ const Layout = ({ children }) => (
     <div className='container-div'>
 
     <div className='inner-div'>
-        <h2><span style={{color: '#E6296D'}}>Anubhav</span> Bhambri</h2>
+        <h2><span style={{color: '#E6296D'}}>ANUBHAV</span> BHAMBRI</h2>
         <nav>
             <ul>
                 <li><a href="">ABOUT</a></li>
@@ -10,7 +10,9 @@ const Layout = ({ children }) => (
                 <li><a href="">PROJECTS</a></li>
             </ul>  
         </nav>
+        {children}
         <p className='contact'>CONTACT</p>
+        {/* &copy; {new Date().getFullYear()} */}
     </div>
 
     <style jsx>{`
@@ -80,7 +82,7 @@ const Layout = ({ children }) => (
         right: 20px;
     }
     `}</style>
-    <style global jsx>{`
+    {/* <style global jsx>{`
     body {
         margin: 0;
         padding: 0;
@@ -88,7 +90,7 @@ const Layout = ({ children }) => (
     h1, h2, h3, h4, h5, h6, p, ul, li {
         color: #F4F1F3;
     }
-    `}</style>
+    `}</style> */}
 </div>
 )
 
