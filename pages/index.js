@@ -15,7 +15,7 @@ const Home = () => (
         top: 50%;
         transform: translateY(-50%);
       }
-      @media {max-width: 850px} {
+      @media (max-width: 850px) {
         .home-container {
           flex-direction: column;
           padding: 20px;
@@ -24,7 +24,7 @@ const Home = () => (
       .home-container p {
         width: 30%;
       }
-      @media {max-width: 850px} {
+      @media (max-width: 850px) {
         .home-container p {
           margin-left: auto;
           width: 50%;
@@ -35,7 +35,7 @@ const Home = () => (
         font-size: 4rem;
         margin: 0;
       }
-      @media {max-width: 850px} {
+      @media (max-width: 850px) {
         .home-container h1 {
           font-size: 3.5rem;
           margin-left: auto;
