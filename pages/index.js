@@ -11,17 +11,37 @@ const Home = () => (
       .home-container {
         display: flex;
         justify-content: space-around;
-        // padding-left: ;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
       }
+      @media {max-width: 850px} {
+        .home-container {
+          flex-direction: column;
+          padding: 20px;
+        }
+      }
       .home-container p {
         width: 30%;
+      }
+      @media {max-width: 850px} {
+        .home-container p {
+          margin-left: auto;
+          width: 50%;
+          text-align: right;
+        }
       }
       .home-container h1 {
         font-size: 4rem;
         margin: 0;
+      }
+      @media {max-width: 850px} {
+        .home-container h1 {
+          font-size: 3.5rem;
+          margin-left: auto;
+          text-align: right;
+          margin-bottom: 10%;
+        }
       }
     `}</style>
   </Layout>
