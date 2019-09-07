@@ -6,7 +6,7 @@ const Layout = ({ children }) => (
             <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
         </Head>
     <div className='inner-div'>
-        <h2><span style={{color: '#E6296D'}}>ANUBHAV</span> BHAMBRI</h2>
+        <h2><span style={{color: '#E6296D', fontWeight: '900'}}>ANUBHAV</span>  BHAMBRI</h2>
         <nav>
             <ul>
                 <li><a href="">ABOUT</a></li>
@@ -40,14 +40,16 @@ const Layout = ({ children }) => (
     }
     .inner-div h2 {
         margin: 0;
+        font-weight: 400;
+        letter-spacing: -2px;
+        word-spacing: 3px;
     }
     nav{
-        margin-top: 30px;
+        margin-top: 100px;
         transform-origin: left top;
         transform: rotate(-90deg) translateX(-100%);  
-        width: 65vh;
+        width: 50vh;
         height: auto;
-        // background-color: white;
     }      
     ul{
         display:flex;
@@ -66,6 +68,8 @@ const Layout = ({ children }) => (
         display: flex;
         align-items: center;
         flex: 1;
+
+        font-size: 0.8rem;
     }
     a{  
         flex:1;
@@ -73,16 +77,30 @@ const Layout = ({ children }) => (
         transition: color .5s;
         display: block;
         text-decoration: none;
+        color: #C7C7C7;
+        letter-spacing: 3px;
     }    
     a:hover{ 
-        background: black;
-        color:white;
+        // background: black;
+        // color:white;
     }      
     .contact {
         margin: 0;
         position: absolute;
         bottom: 20px;
         right: 20px;
+        letter-spacing: 3px;
+        padding-bottom: 8px;
+        font-size: 0.9rem;
+    }
+    .contact:before{
+        content: "";
+        position: absolute;
+        width: 70%;
+        height: 1px;
+        bottom: 0;
+        left: 15%;
+        border-bottom: 2px solid #E6296D;
     }
     `}</style>
     <style global jsx>{`
