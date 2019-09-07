@@ -41,7 +41,7 @@ const Home = () => (
       }
       @media (max-width: 850px) {
         .home-container h1 {
-          font-size: 2.5rem;
+          font-size: 1.5rem;
           margin-left: auto;
           text-align: right;
           margin-bottom: 10%;
@@ -53,7 +53,7 @@ const Home = () => (
       }
       @media (max-width: 850px) {
         .home-container .coder {
-          font-size: 5rem;
+          font-size: 4rem;
         }
       }
     `}</style>
