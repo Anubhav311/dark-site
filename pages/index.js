@@ -15,11 +15,11 @@ const Home = () => (
         position: absolute;
         top: 45%;
         transform: translateY(-45%);
+        padding: 20px;
       }
       @media (max-width: 850px) {
         .home-container {
           flex-direction: column;
-          padding: 20px;
         }
       }
       .home-container p {

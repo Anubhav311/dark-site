@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 const Layout = ({ children }) => (
     <div className='container-div'>
@@ -6,12 +7,12 @@ const Layout = ({ children }) => (
             <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
         </Head>
     <div className='inner-div'>
-        <h2><span style={{color: '#E6296D', fontWeight: '900'}}>ANUBHAV</span>  BHAMBRI</h2>
+        <Link href="/"><a><h2><span style={{color: '#E6296D', fontWeight: '900'}}>ANUBHAV</span>  BHAMBRI</h2></a></Link>
         <nav>
             <ul>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">TECH</a></li>
-                <li><a href="">PROJECTS</a></li>
+                <li><Link href="/about"><a>ABOUT</a></Link></li>
+                <li><Link href="/tech"><a>TECH</a></Link></li>
+                <li><Link href="/projects"><a>PROJECTS</a></Link></li>
             </ul>  
         </nav>
         {children}
@@ -67,12 +68,13 @@ const Layout = ({ children }) => (
         
         display: flex;
         align-items: center;
-        flex: 1;
+        // flex: 1;
+        margin-left: 25px;
 
         font-size: 0.8rem;
     }
     a{  
-        flex:1;
+        // flex:1;
         color:#F4F1F3;
         transition: color .5s;
         display: block;
@@ -83,6 +85,7 @@ const Layout = ({ children }) => (
     a:hover{ 
         // background: black;
         // color:white;
+        cursor: pointer;
     }      
     .contact {
         margin: 0;
