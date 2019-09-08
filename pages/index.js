@@ -31,7 +31,7 @@ const Home = () => (
       @media (max-width: 850px) {
         .home-container p {
           margin-left: auto;
-          width: 60%;
+          width: 80%;
           text-align: right;
         }
       }

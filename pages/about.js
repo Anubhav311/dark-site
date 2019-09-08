@@ -16,24 +16,25 @@ const About = () => (
         </div>
         <style jsx>{`
             .about-container {
-                height: 70%;
+                height: 60%;
                 position: absolute;
                 top: 45%;
                 transform: translateY(-45%);
                 margin-left: 20px;
                 margin-right: 20px;
-                    }
+            }
             .about-text {
                 box-sizing: border-box;
                 width: 70%;
                 height: 100%;
                 overflow-y: scroll;
-                margin: auto;
-                padding-right: 40px;
+                margin-left: auto;
+                padding-right: 20px;
             }
             @media (max-width: 850px) {
                 .about-text {
-                    width: 80%;
+                    width: 90%;
+                    // text-align: right;
                 }
             }
             // width
