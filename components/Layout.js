@@ -7,7 +7,11 @@ const Layout = ({ children }) => (
             <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
         </Head>
     <div className='inner-div'>
-        <Link href="/"><a><h2><span style={{color: '#E6296D', fontWeight: '900'}}>ANUBHAV</span>  BHAMBRI</h2></a></Link>
+        <Link href="/">
+            <a>
+                <h2><span style={{color: '#E6296D', fontWeight: '900'}}>ANUBHAV</span>  BHAMBRI</h2>
+            </a>
+        </Link>
         <nav>
             <ul>
                 <li><Link href="/about"><a>ABOUT</a></Link></li>
@@ -40,6 +44,11 @@ const Layout = ({ children }) => (
         font-weight: 400;
         letter-spacing: -2px;
         word-spacing: 3px;
+    }
+    @media (max-width: 850px) {
+        .inner-div h2 {
+            font-size: 1.2rem;
+        }
     }
     nav{
         margin-top: 100px;
