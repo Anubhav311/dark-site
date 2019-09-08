@@ -28,13 +28,14 @@ const About = () => (
                 width: 70%;
                 height: 100%;
                 overflow-y: scroll;
-                margin-left: auto;
-                padding-right: 20px;
+                margin: auto;
+                padding-right: 40px;
             }
             @media (max-width: 850px) {
                 .about-text {
                     width: 90%;
-                    // text-align: right;
+                    margin-left: auto;
+                    padding-right: 20px;
                 }
             }
             // width
@@ -68,7 +69,7 @@ const About = () => (
                     font-size: 1.5rem;
                 }
             }
-                    p {
+            p {
                 letter-spacing: 3px;
                 word-spacing: 5px;        
             }
