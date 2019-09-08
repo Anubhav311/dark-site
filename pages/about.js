@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 const About = () => (
     <Layout>
         <div className="about-container">
-            <div className="about-text">
+            <div className="about-inner-container">
                 <h1>EXPERIENCE</h1>
                 <p>During my three years experience in legal industry, I've learned how to prevent problems. But if you cannot prevent one, I've learned how to find the solution for it.</p>
                 <p>I've realized that software industry and legal industry have a lot of similarities. Both industries are complex and almost everything is time-bound with huge penalties.</p>
@@ -23,7 +23,7 @@ const About = () => (
                 margin-left: 20px;
                 margin-right: 20px;
             }
-            .about-text {
+            .about-inner-container {
                 box-sizing: border-box;
                 width: 70%;
                 height: 100%;
@@ -32,31 +32,31 @@ const About = () => (
                 padding-right: 40px;
             }
             @media (max-width: 850px) {
-                .about-text {
+                .about-inner-container {
                     width: 90%;
                     margin-left: auto;
                     padding-right: 20px;
                 }
             }
             // width
-            .about-text::-webkit-scrollbar {
+            .about-inner-container::-webkit-scrollbar {
                 width: 5px;
                 border-radius: 5px;
             }
 
             // Track
-            // .about-text::-webkit-scrollbar-track {
+            // .about-inner-container::-webkit-scrollbar-track {
             //     background: #f1f1f1; 
             // }
 
             // Handle
-            .about-text::-webkit-scrollbar-thumb {
+            .about-inner-container::-webkit-scrollbar-thumb {
                 background: white; 
                 border-radius: 5px;
             }
 
             // Handle on hover
-            .about-text::-webkit-scrollbar-thumb:hover {
+            .about-inner-container::-webkit-scrollbar-thumb:hover {
                 background: #9ac6c9;; 
             }
 

@@ -3,27 +3,27 @@ import Layout from '../components/Layout';
 
 const Tech = () => (
     <Layout>
-        <div className="about-container">
-            <div className="about-text">
+        <div className="tech-container">
+            <div className="tech-inner-container">
                 <h1>TECH-STACK</h1>
                 <h2>JavaScript || Python || Next || React || Redux || Node || Express || Django || GitHub</h2>
             </div>
         </div>
         <style jsx>{`
-            .about-container {
+            .tech-container {
                 position: absolute;
                 top: 45%;
                 transform: translateY(-45%);
                 margin-left: 20px;
                 margin-right: 20px;
             }
-            .about-text {
+            .tech-inner-container {
                 box-sizing: border-box;
                 width: 70%;
                 margin: auto;
             }
             @media (max-width: 850px) {
-                .about-text {
+                .tech-inner-container {
                     width: 80%;
                 }
             }
