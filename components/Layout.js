@@ -20,10 +20,6 @@ const Layout = ({ children }) => (
     </div>
 
     <style jsx>{`
-    .test {
-        float: left;
-        display: block;
-    }
     .container-div {
         background-color: #4B4B4B;
         width: 100vw;
@@ -31,7 +27,7 @@ const Layout = ({ children }) => (
         display: flex;
     }
     .inner-div {
-        width: 85%;
+        width: 80%;
         height: 80%;
         background-color: #333333;
         margin: auto;

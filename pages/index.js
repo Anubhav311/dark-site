@@ -15,7 +15,8 @@ const Home = () => (
         position: absolute;
         top: 45%;
         transform: translateY(-45%);
-        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
       }
       @media (max-width: 850px) {
         .home-container {
