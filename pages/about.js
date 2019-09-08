@@ -31,6 +31,11 @@ const About = () => (
                 margin: auto;
                 padding-right: 40px;
             }
+            @media (max-width: 850px) {
+                .about-text {
+                    width: 80%;
+                }
+            }
             // width
             .about-text::-webkit-scrollbar {
                 width: 5px;
@@ -57,7 +62,12 @@ const About = () => (
                 color: #E6296D;
                 letter-spacing: 5px;
             }
-            p {
+            @media (max-width: 850px) {
+                h1 {
+                    font-size: 1.5rem;
+                }
+            }
+                    p {
                 letter-spacing: 3px;
                 word-spacing: 5px;        
             }
