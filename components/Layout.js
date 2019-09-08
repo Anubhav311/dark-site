@@ -48,6 +48,7 @@ const Layout = ({ children }) => (
     @media (max-width: 850px) {
         .inner-div h2 {
             font-size: 1.2rem;
+            letter-spacing: -1px;
         }
     }
     nav{
