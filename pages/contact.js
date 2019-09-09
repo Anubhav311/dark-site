@@ -22,25 +22,25 @@ const Contact = () => (
                     <a href="mailto:anubhavbhambri1@gmail.com">
                         <div className="contact-medium-container">
                             <FontAwesomeIcon className="icon" icon={mail} size="2x"/>
-                            <p>anubhavbhambri1@gmail.com</p><i class="far fa-envelope"></i>
+                            <p className="contact-medium-text">anubhavbhambri1@gmail.com</p><i class="far fa-envelope"></i>
                         </div>
                     </a>
                     <a href="https://github.com/Anubhav311" target="_blank" rel="noopener noreferrer">
                         <div className="contact-medium-container">
                             <FontAwesomeIcon className="icon" icon={github} size="2x"/>
-                            <p>github.com/Anubhav311</p>
+                            <p className="contact-medium-text">github.com/Anubhav311</p>
                         </div>
                     </a>
                     <a href="https://twitter.com/anubhav_bhambri" target="_blank" rel="noopener noreferrer">
                         <div className="contact-medium-container">
                             <FontAwesomeIcon className="icon" icon={twitter} size="2x"/>
-                            <p>twitter.com/anubhav_bhambri</p>
+                            <p className="contact-medium-text">twitter.com/anubhav_bhambri</p>
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/anubhav-bhambri" target="_blank" rel="noopener noreferrer">
                         <div className="contact-medium-container">
                             <FontAwesomeIcon className="icon" icon={linkedin} size="2x"/>
-                            <p>linkedin.com/in/anubhav-bhambri</p>
+                            <p className="contact-medium-text">linkedin.com/in/anubhav-bhambri</p>
                         </div>
                     </a>
                 </div>
@@ -65,14 +65,41 @@ const Contact = () => (
             @media (max-width: 850px) {
                 .contact-inner-container {
                     width: 80%;
+                    flex-direction: column;
                 }
             }
             .contact-text {
                 width: 40%;
                 height: auto;
             }
+            @media (max-width: 850px) {
+                .contact-text {
+                    margin-left: auto;
+                    margin-bottom: 30px;
+                    width: 80%;
+                    text-align: right;
+                }
+            }
+            .contact-text p {
+                text-align: justify;
+                letter-spacing: 2px;
+            }
+            @media (max-width: 850px) {
+                .contact-text p {
+                    text-align: justify;
+                    letter-spacing: 2px;
+                }
+            }
             .contact-details {
                 width: 40%;
+            }
+            @media (max-width: 850px) {
+                .contact-details {
+                    display: flex;
+                    width: 80%;
+                    margin-left: auto;
+                    justify-content: space-between;
+                }
             }
             h1 {
                 color: #E6296D;
@@ -86,6 +113,15 @@ const Contact = () => (
             .contact-medium-container {
                 display: flex;
                 align-items: center;
+                margin-bottom: 15px;
+            }
+            .contact-medium-text {
+                margin: 0;
+            }
+            @media (max-width: 850px) {
+                .contact-medium-text {
+                    display: none;
+                }
             }
             .icon {
                 color: #E6296D;
