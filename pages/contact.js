@@ -19,22 +19,30 @@ const Contact = () => (
                     <p>You have any assignment, job or would just like me to collaborate on some project, feel free to reach out.</p>
                 </div>
                 <div className="contact-details">
-                    <div className="contact-medium-container">
-                        <FontAwesomeIcon className="icon" icon={mail} size="2x"/>
-                        <p>anubhavbhambri1@gmail.com</p><i class="far fa-envelope"></i>
-                    </div>
-                    <div className="contact-medium-container">
-                        <FontAwesomeIcon className="icon" icon={github} size="2x"/>
-                        <p>https://github.com/Anubhav311</p>
-                    </div>
-                    <div className="contact-medium-container">
-                        <FontAwesomeIcon className="icon" icon={twitter} size="2x"/>
-                        <p>https://twitter.com/anubhav_bhambri</p>
-                    </div>
-                    <div className="contact-medium-container">
-                        <FontAwesomeIcon className="icon" icon={linkedin} size="2x"/>
-                        <p>https://www.linkedin.com/in/anubhav-bhambri/</p>
-                    </div>
+                    <a href="mailto:anubhavbhambri1@gmail.com">
+                        <div className="contact-medium-container">
+                            <FontAwesomeIcon className="icon" icon={mail} size="2x"/>
+                            <p>anubhavbhambri1@gmail.com</p><i class="far fa-envelope"></i>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Anubhav311" target="_blank" rel="noopener noreferrer">
+                        <div className="contact-medium-container">
+                            <FontAwesomeIcon className="icon" icon={github} size="2x"/>
+                            <p>github.com/Anubhav311</p>
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/anubhav_bhambri" target="_blank" rel="noopener noreferrer">
+                        <div className="contact-medium-container">
+                            <FontAwesomeIcon className="icon" icon={twitter} size="2x"/>
+                            <p>twitter.com/anubhav_bhambri</p>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anubhav-bhambri" target="_blank" rel="noopener noreferrer">
+                        <div className="contact-medium-container">
+                            <FontAwesomeIcon className="icon" icon={linkedin} size="2x"/>
+                            <p>linkedin.com/in/anubhav-bhambri</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -75,8 +83,16 @@ const Contact = () => (
                     font-size: 1.5rem;
                 }
             }
+            .contact-medium-container {
+                display: flex;
+                align-items: center;
+            }
             .icon {
                 color: #E6296D;
+                margin-right: 5px;
+            }
+            a {
+                text-decoration: none;
             }
         `}</style>
     </Layout>
