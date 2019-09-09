@@ -1,6 +1,10 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faTachometerAlt, faBox, faHeart, faEnvelopeOpen, faEnvelope, faMousePointer, faChevronUp, faWrench, faTimes, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+library.add(faTachometerAlt, faBox, faHeart, faEnvelopeOpen, faEnvelope, faMousePointer, faChevronUp, faChevronDown, faWrench, faTimes)
+
 const Layout = ({ children }) => (
     <div className='container-div'>
         <Head>
@@ -20,7 +24,7 @@ const Layout = ({ children }) => (
             </ul>  
         </nav>
         {children}
-        <p className='contact'>CONTACT</p>
+        <Link href="/contact"><a><p className='contact'>CONTACT</p></a></Link>
     </div>
 
     <style jsx>{`
