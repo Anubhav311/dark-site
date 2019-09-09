@@ -26,13 +26,15 @@ const Home = () => (
       .home-container p {
         width: 30%;
         letter-spacing: 3px;
-        word-spacing: 5px;
+        word-spacing: 10px;
+        text-align: justify;
       }
       @media (max-width: 850px) {
         .home-container p {
           margin-left: auto;
-          width: 80%;
-          text-align: right;
+          width: 70%;
+          text-align: justify;
+          word-spacing: 5px;
         }
       }
       .home-container h1 {
@@ -50,7 +52,7 @@ const Home = () => (
       }
       .coder {
         color: #E6296D;
-        font-size: 6.2rem;
+        font-size: 6rem;
       }
       @media (max-width: 850px) {
         .home-container .coder {

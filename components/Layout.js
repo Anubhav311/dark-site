@@ -42,7 +42,7 @@ const Layout = ({ children }) => (
     .inner-div h2 {
         margin: 0;
         font-weight: 400;
-        letter-spacing: -2px;
+        letter-spacing: -1px;
         word-spacing: 3px;
     }
     @media (max-width: 850px) {
