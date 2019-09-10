@@ -7,20 +7,41 @@ const Tech = () => (
             <div className="tech-inner-container">
                 <h1>TECH-STACK</h1>
                 <div className="tech-logos">
-                    <div className="logo-batch">
-                        <img className="tech-logo" src="../static/js.png" alt="redux" height="50px"/>
-                        <img src="../static/python.png" alt="python" height="50px"/>
-                        <img src="../static/react.png" alt="react" height="50px"/>
+                    <div className="logo-container">
+                        <img src="../static/js.png" alt="javascript" height="40px"/>
+                        <p>JavaScript</p>
                     </div>
-                    <div className="logo-batch">
-                        <img src="../static/next.png" alt="next" height="50px"/>
-                        <img src="../static/redux.png" alt="redux" height="50px"/>
-                        <img src="../static/node.png" alt="node" height="50px"/>
+                    <div className="logo-container">
+                        <img src="../static/python.png" alt="python" height="40px"/>
+                        <p>Python</p>
                     </div>
-                    <div className="logo-batch">
-                        <img src="../static/express.png" alt="express" height="50px"/>
-                        <img src="../static/django.png" alt="django" height="50px"/>
-                        <img src="../static/github.png" alt="github" height="50px"/>
+                    <div className="logo-container">
+                        <img src="../static/react.png" alt="react" height="40px"/>
+                        <p>React</p>
+                    </div>
+                    <div className="logo-container">
+                        <img src="../static/next.png" alt="next" height="40px"/>
+                        <p>Next</p>
+                    </div>
+                    <div className="logo-container">
+                        <img src="../static/redux.png" alt="redux" height="40px"/>
+                        <p>Redux</p>
+                    </div>
+                    <div className="logo-container">
+                        <img src="../static/node.png" alt="node" height="40px"/>
+                        <p>Node</p>
+                    </div>
+                    <div className="logo-container">
+                        <img src="../static/express.png" alt="express" height="40px"/>
+                        <p>Express</p>
+                    </div>
+                    <div className="logo-container">
+                        <img src="../static/django.png" alt="django" height="40px"/>
+                        <p>Django</p>
+                    </div>
+                    <div className="logo-container">
+                        <img src="../static/github.png" alt="github" height="40px"/>
+                        <p>GitHub</p>
                     </div>
                 </div>
             </div>
@@ -36,7 +57,7 @@ const Tech = () => (
             }
             .tech-inner-container {
                 box-sizing: border-box;
-                width: 70%;
+                width: 60%;
                 margin: auto;
             }
             @media (max-width: 850px) {
@@ -44,14 +65,18 @@ const Tech = () => (
                     width: 80%;
                 }
             }
-            .logo-batch {
-                display: flex;
-                width: 100%;
-                justify-content: space-evenly;
-            }
             .tech-logos {
                 display: flex;
-                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .logo-container {
+                width: 30%;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .logo-container p {
+                margin: 0;
+                font-size: 0.8rem;
             }
             h1 {
                 color: #E6296D;
