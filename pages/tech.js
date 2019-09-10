@@ -76,7 +76,7 @@ const Tech = () => (
             }
             @media (max-width: 850px) {
                 .tech-logos {
-                    justify-content: flex-start;
+                    justify-content: space-between;
                 }
             }
             // width
