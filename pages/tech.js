@@ -59,7 +59,7 @@ const Tech = () => (
             .tech-inner-container {
                 box-sizing: border-box;
                 width: 70%;
-                height: 90%;
+                height: 80%;
                 margin: auto;
             }
             @media (max-width: 850px) {
@@ -108,6 +108,7 @@ const Tech = () => (
             @media (max-width: 850px) {
                 .logo-container {
                     width: 45%;
+                    margin: 15px 0;
                 }
             }
             .logo-container p {
