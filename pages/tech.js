@@ -48,28 +48,39 @@ const Tech = () => (
         </div>
         <style jsx>{`
             .tech-container {
+                height: 60%;
                 position: absolute;
                 top: 45%;
                 transform: translateY(-45%);
                 margin-left: 20px;
                 margin-right: 20px;
-                width: 100%;
-                height: 60%;
+                width: 90%;
             }
             .tech-inner-container {
                 box-sizing: border-box;
-                width: 60%;
-                height: 100%;
+                width: 70%;
+                height: 90%;
                 margin: auto;
-                overflow-y: scroll;
             }
             @media (max-width: 850px) {
                 .tech-inner-container {
                     width: 80%;
                 }
             }
+            .tech-logos {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                height: 100%;
+                overflow-y: scroll;
+            }
+            @media (max-width: 850px) {
+                .tech-logos {
+                    justify-content: flex-start;
+                }
+            }
             // width
-            .tech-inner-container::-webkit-scrollbar {
+            .tech-logos::-webkit-scrollbar {
                 width: 5px;
                 border-radius: 5px;
             }
@@ -80,18 +91,14 @@ const Tech = () => (
             // }
 
             // Handle
-            .tech-inner-container::-webkit-scrollbar-thumb {
+            .tech-logos::-webkit-scrollbar-thumb {
                 background: white; 
                 border-radius: 5px;
             }
 
             // Handle on hover
-            .tech-inner-container::-webkit-scrollbar-thumb:hover {
+            .tech-logos::-webkit-scrollbar-thumb:hover {
                 background: #9ac6c9;; 
-            }
-            .tech-logos {
-                display: flex;
-                flex-wrap: wrap;
             }
             .logo-container {
                 width: 30%;
@@ -116,10 +123,6 @@ const Tech = () => (
                 h1 {
                     font-size: 1.5rem;
                 }
-            }
-            h2 {
-                font-weight: 400;
-                word-spacing: 40px;
             }
         `}</style>
     </Layout>
