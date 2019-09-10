@@ -8,7 +8,7 @@ const Tech = () => (
                 <h1>TECH-STACK</h1>
                 <div className="tech-logos">
                     <div className="logo-container">
-                        <img src="../static/js.png" alt="javascript" height="40px"/>
+                        <img src="../static/javascript.png" alt="javascript" height="40px"/>
                         <p>JavaScript</p>
                     </div>
                     <div className="logo-container">
