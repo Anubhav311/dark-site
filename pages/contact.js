@@ -16,7 +16,7 @@ const Contact = () => (
             <div className="contact-inner-container">
                 <div className="contact-text">
                     <h1>CONTACT</h1>
-                    <p>You have any assignment, job or would just like me to collaborate on some project, feel free to reach out.</p>
+                    <p>You have an assignment or job for me, or just like me to collaborate on some project, feel free to reach out.</p>
                 </div>
                 <div className="contact-details">
                     <a href="mailto:anubhavbhambri1@gmail.com">

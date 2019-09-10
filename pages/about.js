@@ -5,13 +5,12 @@ const About = () => (
     <Layout>
         <div className="about-container">
             <div className="about-inner-container">
-                <h1>EXPERIENCE</h1>
-                <p>During my three years experience in legal industry, I've learned how to prevent problems. But if you cannot prevent one, I've learned how to find the solution for it.</p>
-                <p>I've realized that software industry and legal industry have a lot of similarities. Both industries are complex and almost everything is time-bound with huge penalties.</p>
-                <p>During my three years experience in legal industry, I've learned how to prevent problems. But if you cannot prevent one, I've learned how to find the solution for it.</p>
-                <p>I've realized that software industry and legal industry have a lot of similarities. Both industries are complex and almost everything is time-bound with huge penalties.</p>
-                <p>During my three years experience in legal industry, I've learned how to prevent problems. But if you cannot prevent one, I've learned how to find the solution for it.</p>
-                <p>I've realized that software industry and legal industry have a lot of similarities. Both industries are complex and almost everything is time-bound with huge penalties.</p>
+                <h1>ABOUT</h1>
+                <p>I like teaching</p>
+                <p>I used to work as a corporate lawyer</p>
+                <p>I'm a Lambda School graduate</p>
+                <p>I like reading books, startups, swimming and table tennis</p>
+                <p>I like making friends. So don't hesitate to reach out if you think we can be friends.</p>
             </div>
         </div>
         <style jsx>{`
