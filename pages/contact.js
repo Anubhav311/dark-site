@@ -16,7 +16,7 @@ const Contact = () => (
             <div className="contact-inner-container">
                 <div className="contact-text">
                     <h1>CONTACT</h1>
-                    <p>I'm an email away for all your feedback, crazy ideas, to collaborate, to network, for geeky discussions or just to meet over a coffee.</p>
+                    <p>I'm an email away for all your feedback, crazy ideas, working together, to network, geeky talks or just to meet over a coffee.</p>
                 </div>
                 <div className="contact-details">
                     <a href="mailto:anubhavbhambri1@gmail.com">
