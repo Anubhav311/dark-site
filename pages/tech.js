@@ -43,7 +43,7 @@ const Tech = () => (
                     <div className="tech-list-item">
                         <div className="dot"></div>
                         <p>Express</p>
-                        <img className="logo" src="../static/express.png" alt="express" height="35px"/>
+                        <img className="logo" src="../static/express.png" alt="express" height="30px" width="80px"/>
                     </div>
                     <div className="tech-list-item">
                         <div className="dot"></div>
