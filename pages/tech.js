@@ -86,7 +86,7 @@ const Tech = () => (
             }
             @media (max-width: 850px) {
                 .tech-inner-container {
-                    width: 80%;
+                    width: 90%;
                     flex-direction: column;
                 }
             }
