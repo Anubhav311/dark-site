@@ -1,5 +1,8 @@
 import React from 'react'
 import Layout from '../components/Layout';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub as github } from '@fortawesome/free-brands-svg-icons';
+import { faExternalLinkAlt as link, faEnvelope as mail } from '@fortawesome/free-solid-svg-icons';
 
 const Projects = () => (
     <Layout>
@@ -10,7 +13,7 @@ const Projects = () => (
                     <div className="projects-list">
                         <div className="project-list-item">
                             <div className="dot"></div>
-                            <p>where2code</p>
+                            <p>wheretocode</p>
                         </div>
                         <div className="project-list-item">
                             <div className="dot"></div>
@@ -34,7 +37,16 @@ const Projects = () => (
                         </div>
                     </div>
                     <div className="project">
-                        <img src="../static/challengejs.png" alt="javascript" height="40px"/>
+                        <div className="project-card-divider">
+                            <div className="project-links">
+                                <FontAwesomeIcon style={{color: "#E6296D", marginRight: "15px"}} className="icon" icon={github} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#E6296D"}} icon={link} size="2x"/>
+                            </div>
+                            <h3>WhereToCode</h3>
+                            <p className="project-description">Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                            <p className="project-description">I was working as a Team Lead for this project.</p>
+                        </div>
+                        <p className="project-tech">React || Node || Google Map || Travis</p>
                     </div>
                 </div>
             </div>
@@ -128,7 +140,12 @@ const Projects = () => (
                 height: 10px;
                 border-radius: 50%;
                 background-color: #E6296D;
-                margin-right: 10px;
+                margin: 0 15px 0 10px;
+            }
+            @media (max-width: 850px) {
+                .dot {
+                    margin: 0 10px 0 0;
+                }
             }
             .project-list-item p {
                 margin: 0;
@@ -138,11 +155,35 @@ const Projects = () => (
                 background-color: black;
                 box-shadow: 0px 15px 40px 10px;
                 border-radius: 5px;
+                padding: 20px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
             }
             @media (max-width: 850px) {
                 .project {
                     display: none;
                 }
+            }
+            .project h3 {
+                letter-spacing: 2px;
+                color: #E6296D;
+            }
+            .project-description {
+                letter-spacing: 2px;
+                font-size: 0.9rem;
+            }
+            .project-tech {
+                letter-spacing: 1px;
+                font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+            }
+            .icon {
+                margin-right: 20px;
+            }
+            .project-links {
+                display: flex;
+                justify-content: flex-end;
             }
         `}</style>
     </Layout>

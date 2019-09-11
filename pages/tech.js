@@ -161,6 +161,11 @@ const Tech = () => (
                 background-color: #E6296D;
                 margin: 0 15px 0 10px;
             }
+            @media (max-width: 850px) {
+                .dot {
+                    margin: 0 10px 0 0;
+                }
+            }
             .tech-list-item p {
                 margin: 0;
             }
