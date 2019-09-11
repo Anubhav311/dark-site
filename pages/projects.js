@@ -71,7 +71,7 @@ const Projects = () => (
             }
             @media (max-width: 850px) {
                 .projects-inner-container {
-                    width: 80%;
+                    width: 100%;
                 }
             }
             h1 {
