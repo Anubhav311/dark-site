@@ -18,7 +18,7 @@ const Projects = () => (
                         </div>
                         <div className="project-list-item">
                             <div className="dot"></div>
-                            <p>RoadTrip</p>
+                            <p>Roadtrip</p>
                         </div>
                         <div className="project-list-item">
                             <div className="dot"></div>
@@ -34,7 +34,7 @@ const Projects = () => (
                         </div>
                     </div>
                     <div className="project">
-                        <h2>Hi</h2>
+                        <img src="../static/challengejs.png" alt="javascript" height="40px"/>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@ const Projects = () => (
             }
             .projects-inner-container {
                 box-sizing: border-box;
-                width: 80%;
+                width: 90%;
                 height: 100%;
                 margin: auto;
             }
@@ -83,6 +83,11 @@ const Projects = () => (
                 overflow-y: scroll;
                 padding: 25px;
                 box-sizing: border-box;
+            }
+            @media (max-width: 850px) {
+                .projects-list {
+                    width: 100%;
+                }
             }
             // width
             .projects-list::-webkit-scrollbar {
@@ -129,9 +134,15 @@ const Projects = () => (
                 margin: 0;
             }
             .project {
-                width: 60%;
-                background-color: green;
+                width: 55%;
+                background-color: black;
                 box-shadow: 0px 15px 40px 10px;
+                border-radius: 5px;
+            }
+            @media (max-width: 850px) {
+                .project {
+                    display: none;
+                }
             }
         `}</style>
     </Layout>

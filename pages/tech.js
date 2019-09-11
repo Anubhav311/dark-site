@@ -6,42 +6,51 @@ const Tech = () => (
         <div className="tech-container">
             <div className="tech-inner-container">
                 <h1>TECH-STACK</h1>
-                <div className="tech-logos">
-                    <div className="logo-container">
-                        <img src="../static/javascript.png" alt="javascript" height="40px"/>
+                <div className="tech-list">
+                    <div className="tech-list-item">
+                        <div className="dot"></div>
                         <p>JavaScript</p>
+                        <img className="logo" src="../static/javascript.png" alt="javascript" height="40px"/>
                     </div>
-                    <div className="logo-container">
-                        <img src="../static/python.png" alt="python" height="40px"/>
+                    <div className="tech-list-item">
+                        <div className="dot"></div>
                         <p>Python</p>
+                        <img className="logo" src="../static/python.png" alt="python" height="40px"/>
                     </div>
-                    <div className="logo-container">
-                        <img src="../static/react.png" alt="react" height="40px"/>
+                    <div className="tech-list-item">
+                        <div className="dot"></div>
                         <p>React</p>
+                        <img className="logo" src="../static/react.png" alt="react" height="40px"/>
                     </div>
-                    <div className="logo-container">
-                        <img src="../static/next.png" alt="next" height="40px"/>
+                    <div className="tech-list-item">
+                        <div className="dot"></div>
                         <p>Next</p>
+                        <img className="logo" src="../static/next.png" alt="next" height="40px"/>
                     </div>
-                    <div className="logo-container">
-                        <img src="../static/redux.png" alt="redux" height="40px"/>
+                    <div className="tech-list-item">
+                        <div className="dot"></div>
                         <p>Redux</p>
+                        <img className="logo" src="../static/redux.png" alt="redux" height="40px"/>
                     </div>
-                    <div className="logo-container">
-                        <img src="../static/node.png" alt="node" height="40px"/>
+                    <div className="tech-list-item">
+                        <div className="dot"></div>
                         <p>Node</p>
+                        <img className="logo" src="../static/node.png" alt="node" height="40px"/>
                     </div>
-                    <div className="logo-container">
-                        <img src="../static/express.png" alt="express" height="40px"/>
+                    <div className="tech-list-item">
+                        <div className="dot"></div>
                         <p>Express</p>
+                        <img className="logo" src="../static/express.png" alt="express" height="40px"/>
                     </div>
-                    <div className="logo-container">
-                        <img src="../static/django.png" alt="django" height="40px"/>
+                    <div className="tech-list-item">
+                        <div className="dot"></div>
                         <p>Django</p>
+                        <img className="logo" src="../static/django.png" alt="django" height="40px"/>
                     </div>
-                    <div className="logo-container">
-                        <img src="../static/github.png" alt="github" height="40px"/>
-                        <p>GitHub</p>
+                    <div className="tech-list-item">
+                        <div className="dot"></div>
+                        <p>GirHub</p>
+                        <img className="logo" src="../static/github.png" alt="github" height="40px"/>
                     </div>
                 </div>
             </div>
@@ -67,20 +76,8 @@ const Tech = () => (
                     width: 80%;
                 }
             }
-            .tech-logos {
-                display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-                height: 100%;
-                overflow-y: scroll;
-            }
-            @media (max-width: 850px) {
-                .tech-logos {
-                    justify-content: space-between;
-                }
-            }
             // width
-            .tech-logos::-webkit-scrollbar {
+            .tech-list::-webkit-scrollbar {
                 width: 5px;
                 border-radius: 5px;
             }
@@ -91,34 +88,56 @@ const Tech = () => (
             // }
 
             // Handle
-            .tech-logos::-webkit-scrollbar-thumb {
-                background: white; 
+            .tech-list::-webkit-scrollbar-thumb {
+                background: none; 
                 border-radius: 5px;
             }
 
             // Handle on hover
-            .tech-logos::-webkit-scrollbar-thumb:hover {
+            .tech-list::-webkit-scrollbar-thumb:hover {
                 background: #9ac6c9;; 
             }
-            .logo-container {
-                width: 30%;
-                text-align: center;
-                margin-bottom: 20px;
+            .tech-list {
+                width: 50%;
+                height: 100%;
+                overflow-y: scroll;
+                padding: 25px;
+                box-sizing: border-box;
             }
             @media (max-width: 850px) {
-                .logo-container {
-                    width: 45%;
-                    margin: 15px 0;
+                .tech-list {
+                    width: 100%;
                 }
             }
-            .logo-container p {
+            .tech-list-item {
+                width: 100%;
+                height: 60px;
+                box-sizing: border-box;
+                background-color: black;
+                margin-bottom: 30px;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                border-radius: 5px;
+                box-shadow: 0px 5px 20px 5px;
+            }
+            .dot {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: #E6296D;
+                margin-right: 10px;
+            }
+            .tech-list-item p {
                 margin: 0;
-                font-size: 0.8rem;
+            }
+            .logo {
+                margin-left: auto;
             }
             h1 {
                 color: #E6296D;
                 letter-spacing: 5px;
-                margin-left: 10%;
+                // margin-left: 10%;
             }
             @media (max-width: 850px) {
                 h1 {
