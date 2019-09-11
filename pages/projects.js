@@ -13,7 +13,9 @@ const Projects = () => (
                     <div className="projects-list">
                         <div className="project-list-item">
                             <div className="dot"></div>
-                            <p>wheretocode</p>
+                            <p>Wheretocode</p>
+                            <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "auto"}} className="icon" icon={github} size="2x"/>
+                            <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "10px"}} icon={link} size="2x"/>
                         </div>
                         <div className="project-list-item">
                             <div className="dot"></div>
@@ -46,7 +48,7 @@ const Projects = () => (
                             <p className="project-description">Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
                             <p className="project-description">I was working as a Team Lead for this project.</p>
                         </div>
-                        <p className="project-tech">React || Node || Google Map || Travis</p>
+                        <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                     </div>
                 </div>
             </div>
@@ -151,7 +153,7 @@ const Projects = () => (
                 margin: 0;
             }
             .project {
-                width: 55%;
+                width: 50%;
                 background-color: black;
                 box-shadow: 0px 15px 40px 10px;
                 border-radius: 5px;
@@ -175,7 +177,8 @@ const Projects = () => (
                 font-size: 0.9rem;
             }
             .project-tech {
-                letter-spacing: 1px;
+                // letter-spacing: 1px;
+                font-size: 0.9rem;
                 font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
             }
             .icon {

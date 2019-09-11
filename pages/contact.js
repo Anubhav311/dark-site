@@ -28,19 +28,19 @@ const Contact = () => (
                     <a href="https://github.com/Anubhav311" target="_blank" rel="noopener noreferrer">
                         <div className="contact-medium-container">
                             <FontAwesomeIcon className="icon" icon={github} size="2x"/>
-                            <p className="contact-medium-text">github.com/Anubhav311</p>
+                            <p className="contact-medium-text">@Anubhav311</p>
                         </div>
                     </a>
                     <a href="https://twitter.com/anubhav_bhambri" target="_blank" rel="noopener noreferrer">
                         <div className="contact-medium-container">
                             <FontAwesomeIcon className="icon" icon={twitter} size="2x"/>
-                            <p className="contact-medium-text">twitter.com/anubhav_bhambri</p>
+                            <p className="contact-medium-text">@anubhav_bhambri</p>
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/anubhav-bhambri" target="_blank" rel="noopener noreferrer">
                         <div className="contact-medium-container">
                             <FontAwesomeIcon className="icon" icon={linkedin} size="2x"/>
-                            <p className="contact-medium-text">linkedin.com/in/anubhav-bhambri</p>
+                            <p className="contact-medium-text">@anubhav-bhambri</p>
                         </div>
                     </a>
                 </div>
