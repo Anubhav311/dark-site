@@ -159,7 +159,7 @@ const Tech = () => (
                 height: 10px;
                 border-radius: 50%;
                 background-color: #E6296D;
-                margin-right: 10px;
+                margin: 0 15px 0 10px;
             }
             .tech-list-item p {
                 margin: 0;
@@ -170,11 +170,11 @@ const Tech = () => (
             h1 {
                 color: #E6296D;
                 letter-spacing: 5px;
-                margin-left: 25px;
             }
             @media (max-width: 850px) {
                 h1 {
                     font-size: 1.5rem;
+                    margin-left: 25px;
                 }
             }
         `}</style>
