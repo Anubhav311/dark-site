@@ -5,7 +5,10 @@ const Tech = () => (
     <Layout>
         <div className="tech-container">
             <div className="tech-inner-container">
-                <h1>TECH-STACK</h1>
+                <div className="tech-text">
+                    <h1>TECH-STACK</h1>
+                    <p>I've been using multiple technologies for creating Full-Stack Web Applications. My favorite is MERN stack but I also have some experience with Django and Python.</p>
+                </div>
                 <div className="tech-list">
                     <div className="tech-list-item">
                         <div className="dot"></div>
@@ -25,7 +28,7 @@ const Tech = () => (
                     <div className="tech-list-item">
                         <div className="dot"></div>
                         <p>Next</p>
-                        <img className="logo" src="../static/next.png" alt="next" height="40px"/>
+                        <img className="logo" src="../static/next_black.png" alt="next" height="40px"/>
                     </div>
                     <div className="tech-list-item">
                         <div className="dot"></div>
@@ -40,7 +43,7 @@ const Tech = () => (
                     <div className="tech-list-item">
                         <div className="dot"></div>
                         <p>Express</p>
-                        <img className="logo" src="../static/express.png" alt="express" height="40px"/>
+                        <img className="logo" src="../static/express.png" alt="express" height="35px"/>
                     </div>
                     <div className="tech-list-item">
                         <div className="dot"></div>
@@ -59,22 +62,34 @@ const Tech = () => (
             .tech-container {
                 height: 60%;
                 position: absolute;
-                top: 45%;
-                transform: translateY(-45%);
+                top: 50%;
+                transform: translateY(-50%);
                 margin-left: 20px;
                 margin-right: 20px;
                 width: 90%;
             }
             .tech-inner-container {
                 box-sizing: border-box;
-                width: 70%;
-                height: 80%;
+                width: 80%;
+                height: 100%;
                 margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
             }
             @media (max-width: 850px) {
                 .tech-inner-container {
                     width: 80%;
                 }
+            }
+            .tech-text {
+                width: 40%;
+            }
+            .tech-text p {
+                letter-spacing: 3px;
+                word-spacing: 5px;
+                line-height: 20px;
+                text-align: justify;
             }
             // width
             .tech-list::-webkit-scrollbar {
@@ -98,7 +113,7 @@ const Tech = () => (
                 background: #9ac6c9;; 
             }
             .tech-list {
-                width: 50%;
+                width: 45%;
                 height: 100%;
                 overflow-y: scroll;
                 padding: 25px;
