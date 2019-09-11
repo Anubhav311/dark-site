@@ -15,72 +15,72 @@ const Projects = () => (
                             <div className="dot"></div>
                             <p>Wheretocode</p>
                             <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#E6296D"}} id="bar-icon" icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "10px"}} className="bar-icon" icon={link} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "10px"}} icon={link} size="2x"/>
                             </div>
                         </div>
                         <div className="project-list-item">
                             <div className="dot"></div>
                             <p>ChallengeJS</p>
                             <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#E6296D"}} className="bar-icon" icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "10px"}} className="bar-icon" icon={link} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "10px"}} icon={link} size="2x"/>
                             </div>
                         </div>
                         <div className="project-list-item">
                             <div className="dot"></div>
                             <p>Roadtrip</p>
                             <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "auto"}} className="bar-icon" icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "10px"}} className="bar-icon" icon={link} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "10px"}} icon={link} size="2x"/>
                             </div>
                         </div>
                         <div className="project-list-item">
                             <div className="dot"></div>
                             <p>MDR</p>
                             <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "auto"}} className="bar-icon" icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "10px"}} className="bar-icon" icon={link} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "10px"}} icon={link} size="2x"/>
                             </div>
                         </div>
                         <div className="project-list-item">
                             <div className="dot"></div>
                             <p>Win-Place-Show</p>
                             <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "auto"}} className="bar-icon" icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "10px"}} className="bar-icon" icon={link} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "10px"}} icon={link} size="2x"/>
                             </div>
                         </div>
                         <div className="project-list-item">
                             <div className="dot"></div>
                             <p>Insta Clone</p>
                             <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "auto"}} className="bar-icon" icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "10px"}} className="bar-icon" icon={link} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "10px"}} icon={link} size="2x"/>
                             </div>
                         </div>
                         <div className="project-list-item">
                             <div className="dot"></div>
                             <p>ToDo List</p>
                             <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "auto"}} className="bar-icon" icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "10px"}} className="bar-icon" icon={link} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "10px"}} icon={link} size="2x"/>
                             </div>
                         </div>
                         <div className="project-list-item">
                             <div className="dot"></div>
                             <p>Donor Manage</p>
                             <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "auto"}} className="bar-icon" icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#E6296D", marginLeft: "10px"}} className="bar-icon" icon={link} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "10px"}} icon={link} size="2x"/>
                             </div>
                         </div>
                     </div>
                     <div className="project">
                         <div className="project-card-divider">
                             <div className="project-links">
-                                <FontAwesomeIcon style={{color: "#E6296D", marginRight: "15px"}} className="icon" icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#E6296D"}} icon={link} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={link} size="2x"/>
                             </div>
                             <h3>WhereToCode</h3>
                             <p className="project-description">Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
