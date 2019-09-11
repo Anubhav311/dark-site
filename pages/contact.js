@@ -16,7 +16,7 @@ const Contact = () => (
             <div className="contact-inner-container">
                 <div className="contact-text">
                     <h1>CONTACT</h1>
-                    <p>You have an assignment or job for me, or just like me to collaborate on some project, feel free to reach out.</p>
+                    <p>I'm an email away for all your feedback, crazy ideas, working together, to network, geeky talks or just to meet over a coffee.</p>
                 </div>
                 <div className="contact-details">
                     <a href="mailto:anubhavbhambri1@gmail.com">
@@ -28,19 +28,19 @@ const Contact = () => (
                     <a href="https://github.com/Anubhav311" target="_blank" rel="noopener noreferrer">
                         <div className="contact-medium-container">
                             <FontAwesomeIcon className="icon" icon={github} size="2x"/>
-                            <p className="contact-medium-text">github.com/Anubhav311</p>
+                            <p className="contact-medium-text">@Anubhav311</p>
                         </div>
                     </a>
                     <a href="https://twitter.com/anubhav_bhambri" target="_blank" rel="noopener noreferrer">
                         <div className="contact-medium-container">
                             <FontAwesomeIcon className="icon" icon={twitter} size="2x"/>
-                            <p className="contact-medium-text">twitter.com/anubhav_bhambri</p>
+                            <p className="contact-medium-text">@anubhav_bhambri</p>
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/anubhav-bhambri" target="_blank" rel="noopener noreferrer">
                         <div className="contact-medium-container">
                             <FontAwesomeIcon className="icon" icon={linkedin} size="2x"/>
-                            <p className="contact-medium-text">linkedin.com/in/anubhav-bhambri</p>
+                            <p className="contact-medium-text">@anubhav-bhambri</p>
                         </div>
                     </a>
                 </div>
@@ -64,7 +64,7 @@ const Contact = () => (
             }
             @media (max-width: 850px) {
                 .contact-inner-container {
-                    width: 80%;
+                    width: 90%;
                     flex-direction: column;
                 }
             }
@@ -83,6 +83,7 @@ const Contact = () => (
             .contact-text p {
                 text-align: justify;
                 letter-spacing: 2px;
+                // word-spacing: 5px;
             }
             @media (max-width: 850px) {
                 .contact-text p {
