@@ -16,7 +16,7 @@ const Contact = () => (
             <div className="contact-inner-container">
                 <div className="contact-text">
                     <h1>CONTACT</h1>
-                    <p>You have an assignment or job for me, or just like me to collaborate on some project, feel free to reach out.</p>
+                    <p>I'm an email away for all your constructive feedback, improvement suggestions, remarkable ideas, fun collaboration, tech discussions, mutual networking or to meet over a coffee.</p>
                 </div>
                 <div className="contact-details">
                     <a href="mailto:anubhavbhambri1@gmail.com">
@@ -83,6 +83,7 @@ const Contact = () => (
             .contact-text p {
                 text-align: justify;
                 letter-spacing: 2px;
+                word-spacing: 5px;
             }
             @media (max-width: 850px) {
                 .contact-text p {
