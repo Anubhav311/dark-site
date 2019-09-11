@@ -62,11 +62,18 @@ const Tech = () => (
             .tech-container {
                 height: 60%;
                 position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
+                top: 45%;
+                transform: translateY(-45%);
                 margin-left: 20px;
                 margin-right: 20px;
                 width: 90%;
+            }
+            @media (max-width: 850px) {
+                .tech-container {
+                    top: 40%;
+                    transform: translateY(-40%); 
+                    height: 65%;
+                }
             }
             .tech-inner-container {
                 box-sizing: border-box;
@@ -80,16 +87,27 @@ const Tech = () => (
             @media (max-width: 850px) {
                 .tech-inner-container {
                     width: 80%;
+                    flex-direction: column;
                 }
             }
             .tech-text {
                 width: 40%;
+            }
+            @media (max-width: 850px) {
+                .tech-text {
+                    width: 100%;
+                }
             }
             .tech-text p {
                 letter-spacing: 3px;
                 word-spacing: 5px;
                 line-height: 20px;
                 text-align: justify;
+            }
+            @media (max-width: 850px) {
+                .tech-text p {
+                    display: none;
+                }
             }
             // width
             .tech-list::-webkit-scrollbar {
@@ -152,7 +170,7 @@ const Tech = () => (
             h1 {
                 color: #E6296D;
                 letter-spacing: 5px;
-                // margin-left: 10%;
+                margin-left: 25px;
             }
             @media (max-width: 850px) {
                 h1 {
