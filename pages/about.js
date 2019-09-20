@@ -71,6 +71,10 @@ const About = () => (
                 letter-spacing: 3px;
                 word-spacing: 5px;        
             }
+            p a {
+                text-decoration: none;
+                color: #E6296D;
+            }
         `}</style>
     </Layout>
 )
