@@ -6,11 +6,10 @@ const About = () => (
         <div className="about-container">
             <div className="about-inner-container">
                 <h1>ABOUT</h1>
-                <p>I like teaching</p>
-                <p>I used to work as a corporate lawyer</p>
-                <p>I'm a Lambda School graduate</p>
-                <p>I like reading books, startups, swimming and table tennis</p>
-                <p>I like making friends. So don't hesitate to reach out if you think we can be friends.</p>
+                <p>I'm a student of Full-Stack Web Development and Computer Science at <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer">Lambda School</a></p>
+                <p>Before making switch to Web Development, I worked in Corporate Law industry for three years.</p>
+                <p>I enjoy reading books, learning new technologies, teaching, swimming and table tennis</p>
+                <p>My believe is that startups are the engine behind growth of societies and individuals. And they are so cool that I can't stop thinking about them.</p>
             </div>
         </div>
         <style jsx>{`
@@ -71,6 +70,10 @@ const About = () => (
             p {
                 letter-spacing: 3px;
                 word-spacing: 5px;        
+            }
+            p a {
+                text-decoration: none;
+                color: #E6296D;
             }
         `}</style>
     </Layout>
