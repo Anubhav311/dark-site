@@ -7,7 +7,7 @@ import { faExternalLinkAlt as link, faEnvelope as mail } from '@fortawesome/free
 const Projects = () => (
     <Layout>
         <div className="projects-container">
-            <div className="projects-inner-container">
+            {/* <div className="projects-inner-container">
                 <h1>PROJECTS</h1>
                 <div className="projects-view">
                     <div className="projects-list">
@@ -89,6 +89,9 @@ const Projects = () => (
                         <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                     </div>
                 </div>
+            </div> */}
+            <div className="project-img-container">
+                <img className="project-img" src="../static/challengejs.png" alt="javascript"/>
             </div>
         </div>
         <style jsx>{`
@@ -234,6 +237,14 @@ const Projects = () => (
                 .bar-icon {
                     display: none;
                 }
+            }
+            .project-img-container {
+                padding: 10%;
+            }
+            .project-img {
+                width: 90%;
+                height: 100%;
+                margin: auto;
             }
         `}</style>
     </Layout>
