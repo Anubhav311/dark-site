@@ -1,12 +1,42 @@
 import React from 'react'
+import Slider from "react-slick";
+
 import Layout from '../components/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub as github } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt as link, faEnvelope as mail } from '@fortawesome/free-solid-svg-icons';
 
+var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+};
 const Projects = () => (
     <Layout>
+
         <div className="projects-container">
+        <Slider {...settings}>
+            <div>
+                <h3>1</h3>
+            </div>
+            <div>
+                <h3>2</h3>
+            </div>
+            <div>
+                <h3>3</h3>
+            </div>
+            <div>
+                <h3>4</h3>
+            </div>
+            <div>
+                <h3>5</h3>
+            </div>
+            <div>
+                <h3>6</h3>
+            </div>
+        </Slider>
             {/* <div className="projects-inner-container">
                 <h1>PROJECTS</h1>
                 <div className="projects-view">
@@ -90,9 +120,9 @@ const Projects = () => (
                     </div>
                 </div>
             </div> */}
-            <div className="project-img-container">
+            {/* <div className="project-img-container">
                 <img className="project-img" src="../static/challengejs.png" alt="javascript"/>
-            </div>
+            </div> */}
         </div>
         <style jsx>{`
             .projects-container {
@@ -125,6 +155,9 @@ const Projects = () => (
                 h1 {
                     font-size: 1.5rem;
                 }
+            }
+            h3 {
+                color: red;
             }
             .projects-view {
                 width: 100%;
