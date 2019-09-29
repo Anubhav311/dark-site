@@ -52,7 +52,7 @@ const Tech = () => (
                     </div>
                     <div className="tech-list-item">
                         <div className="dot"></div>
-                        <p>GirHub</p>
+                        <p>GitHub</p>
                         <img className="logo" src="../static/github.png" alt="github" height="40px"/>
                     </div>
                 </div>
