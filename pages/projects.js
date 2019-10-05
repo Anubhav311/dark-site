@@ -40,90 +40,133 @@ const Projects = () => (
             <div className="projects-inner-container">
                 <h1>PROJECTS</h1>
                 <div className="projects-view">
+                    <div className="projects-text">
+                        <p className="project-tech">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
                     <div className="projects-list">
                         <div className="project-list-item">
-                        <div className="project-card-divider">
-                            <div className="project-card-header">
-                                <h3>WhereToCode</h3>
-                                <div className="project-links">
-                                    <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
-                                    <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                            <div className="project-card-divider">
+                                <div className="project-card-header">
+                                    <h3>WhereToCode</h3>
+                                    <div className="project-links">
+                                        <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                        <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                    </div>
                                 </div>
+                                <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                                <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
                             </div>
-                            <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
-                            <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
+                            <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                         </div>
-                        <p className="project-tech">React || Express || Node || Google Map || Travis</p>
-                        </div>
+
                         <div className="project-list-item">
-                            <div className="dot"></div>
-                            <p>ChallengeJS</p>
-                            <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                            <div className="project-card-divider">
+                                <div className="project-card-header">
+                                    <h3>ChallengeJS</h3>
+                                    <div className="project-links">
+                                        <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                        <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                    </div>
+                                </div>
+                                <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                                <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
                             </div>
+                            <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                         </div>
+
                         <div className="project-list-item">
-                            <div className="dot"></div>
-                            <p>Roadtrip</p>
-                            <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                            <div className="project-card-divider">
+                                <div className="project-card-header">
+                                    <h3>RoadTrip</h3>
+                                    <div className="project-links">
+                                        <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                        <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                    </div>
+                                </div>
+                                <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                                <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
                             </div>
+                            <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                         </div>
+
                         <div className="project-list-item">
-                            <div className="dot"></div>
-                            <p>MDR</p>
-                            <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                            <div className="project-card-divider">
+                                <div className="project-card-header">
+                                    <h3>Modern-Day-Researcher</h3>
+                                    <h3>MDR</h3>
+                                    <div className="project-links">
+                                        <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                        <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                    </div>
+                                </div>
+                                <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                                <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
                             </div>
+                            <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                         </div>
+
                         <div className="project-list-item">
-                            <div className="dot"></div>
-                            <p>WPS</p>
-                            <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                            <div className="project-card-divider">
+                                <div className="project-card-header">
+                                    <h3>WinPlaceShow</h3>
+                                    <h3>WPS</h3>
+                                    <div className="project-links">
+                                        <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                        <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                    </div>
+                                </div>
+                                <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                                <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
                             </div>
+                            <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                         </div>
+
                         <div className="project-list-item">
-                            <div className="dot"></div>
-                            <p>Insta Clone</p>
-                            <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                            <div className="project-card-divider">
+                                <div className="project-card-header">
+                                    <h3>Instagram Clone</h3>
+                                    <div className="project-links">
+                                        <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                        <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                    </div>
+                                </div>
+                                <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                                <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
                             </div>
+                            <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                         </div>
+
                         <div className="project-list-item">
-                            <div className="dot"></div>
-                            <p>ToDo List</p>
-                            <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                            <div className="project-card-divider">
+                                <div className="project-card-header">
+                                    <h3>TodoList</h3>
+                                    <div className="project-links">
+                                        <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                        <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                    </div>
+                                </div>
+                                <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                                <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
                             </div>
+                            <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                         </div>
+
                         <div className="project-list-item">
-                            <div className="dot"></div>
-                            <p>Donor Manage</p>
-                            <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                            <div className="project-card-divider">
+                                <div className="project-card-header">
+                                    <h3>Donor Management</h3>
+                                    <div className="project-links">
+                                        <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                        <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                    </div>
+                                </div>
+                                <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                                <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
                             </div>
+                            <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                         </div>
+
                     </div>
-                    {/* <div className="project">
-                        <div className="project-card-divider">
-                            <div className="project-links">
-                                <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
-                            </div>
-                            <h3>WhereToCode</h3>
-                            <p className="project-description">Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
-                            <p className="project-description">I was working as a Team Lead for this project.</p>
-                        </div>
-                        <p className="project-tech">React || Express || Node || Google Map || Travis</p>
-                    </div> */}
                 </div>
             </div>
             {/* <div className="project-img-container">
@@ -241,16 +284,9 @@ const Projects = () => (
             .project-list-item p {
                 margin: 0;
             }
-            .project {
-                width: 50%;
-                background-color: #333333;
-                box-shadow: 0px 10px 40px 5px;
-                border-radius: 5px;
-                padding: 20px;
-                box-sizing: border-box;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+            .projects-text {
+                width: 40%;
+                margin-left: 25px;
             }
             @media (max-width: 850px) {
                 .project {
