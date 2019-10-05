@@ -1,46 +1,18 @@
 import React from 'react'
-import Slider from "react-slick";
 
 import Layout from '../components/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub as github } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt as link, faEnvelope as mail } from '@fortawesome/free-solid-svg-icons';
 
-var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-};
 const Projects = () => (
     <Layout>
 
         <div className="projects-container">
-        {/* <Slider {...settings}>
-            <div>
-                <h3>1</h3>
-            </div>
-            <div>
-                <h3>2</h3>
-            </div>
-            <div>
-                <h3>3</h3>
-            </div>
-            <div>
-                <h3>4</h3>
-            </div>
-            <div>
-                <h3>5</h3>
-            </div>
-            <div>
-                <h3>6</h3>
-            </div>
-        </Slider> */}
             <div className="projects-inner-container">
-                <h1>PROJECTS</h1>
                 <div className="projects-view">
                     <div className="projects-text">
+                        <h1>PROJECTS</h1>
                         <p className="project-tech">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                     <div className="projects-list">
@@ -169,9 +141,6 @@ const Projects = () => (
                     </div>
                 </div>
             </div>
-            {/* <div className="project-img-container">
-                <img className="project-img" src="../static/challengejs.png" alt="javascript"/>
-            </div> */}
         </div>
         <style jsx>{`
             .projects-container {
