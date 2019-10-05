@@ -17,7 +17,7 @@ const Projects = () => (
     <Layout>
 
         <div className="projects-container">
-        <Slider {...settings}>
+        {/* <Slider {...settings}>
             <div>
                 <h3>1</h3>
             </div>
@@ -36,18 +36,24 @@ const Projects = () => (
             <div>
                 <h3>6</h3>
             </div>
-        </Slider>
-            {/* <div className="projects-inner-container">
+        </Slider> */}
+            <div className="projects-inner-container">
                 <h1>PROJECTS</h1>
                 <div className="projects-view">
                     <div className="projects-list">
                         <div className="project-list-item">
-                            <div className="dot"></div>
-                            <p>Wheretocode</p>
-                            <div className="bar-icon">
-                                <FontAwesomeIcon style={{color: "#4B4B4B"}} icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                        <div className="project-card-divider">
+                            <div className="project-card-header">
+                                <h3>WhereToCode</h3>
+                                <div className="project-links">
+                                    <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                    <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                </div>
                             </div>
+                            <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                            <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
+                        </div>
+                        <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                         </div>
                         <div className="project-list-item">
                             <div className="dot"></div>
@@ -106,7 +112,7 @@ const Projects = () => (
                             </div>
                         </div>
                     </div>
-                    <div className="project">
+                    {/* <div className="project">
                         <div className="project-card-divider">
                             <div className="project-links">
                                 <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
@@ -117,9 +123,9 @@ const Projects = () => (
                             <p className="project-description">I was working as a Team Lead for this project.</p>
                         </div>
                         <p className="project-tech">React || Express || Node || Google Map || Travis</p>
-                    </div>
+                    </div> */}
                 </div>
-            </div> */}
+            </div>
             {/* <div className="project-img-container">
                 <img className="project-img" src="../static/challengejs.png" alt="javascript"/>
             </div> */}
@@ -157,7 +163,9 @@ const Projects = () => (
                 }
             }
             h3 {
-                color: red;
+                letter-spacing: 2px;
+                color: #E6296D;
+                margin: 0px;
             }
             .projects-view {
                 width: 100%;
@@ -166,7 +174,7 @@ const Projects = () => (
                 justify-content: space-between;
             }
             .projects-list {
-                width: 35%;
+                width: 50%;
                 height: 100%;
                 overflow-y: scroll;
                 padding: 25px;
@@ -181,6 +189,13 @@ const Projects = () => (
             .projects-list::-webkit-scrollbar {
                 width: 5px;
                 border-radius: 5px;
+            }
+
+            .project-card-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
             }
 
             // Track
@@ -201,13 +216,13 @@ const Projects = () => (
 
             .project-list-item {
                 width: 100%;
-                height: 60px;
+                height: auto;
                 box-sizing: border-box;
                 background-color: black;
                 margin-bottom: 30px;
-                padding: 10px;
-                display: flex;
-                align-items: center;
+                padding: 20px;
+                // display: flex;
+                // align-items: center;
                 border-radius: 5px;
                 box-shadow: 0px 5px 20px 5px;
             }
@@ -228,8 +243,8 @@ const Projects = () => (
             }
             .project {
                 width: 50%;
-                background-color: black;
-                box-shadow: 0px 15px 40px 10px;
+                background-color: #333333;
+                box-shadow: 0px 10px 40px 5px;
                 border-radius: 5px;
                 padding: 20px;
                 box-sizing: border-box;
