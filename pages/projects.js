@@ -12,7 +12,7 @@ const Projects = () => (
             <div className="projects-inner-container">
                     <div className="projects-text">
                         <h1>PROJECTS</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>I've worked on several projects. As a Team Lead, as a Team Member or Individually. You can check the project cards for details on each project.</p>
                     </div>
                     <div className="projects-list">
                         <div className="project-list-item">
