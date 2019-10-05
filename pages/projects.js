@@ -10,10 +10,10 @@ const Projects = () => (
 
         <div className="projects-container">
             <div className="projects-inner-container">
-                <div className="projects-view">
+                {/* <div className="projects-view"> */}
                     <div className="projects-text">
                         <h1>PROJECTS</h1>
-                        <p className="project-tech">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                     <div className="projects-list">
                         <div className="project-list-item">
@@ -138,7 +138,7 @@ const Projects = () => (
                             <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                         </div>
 
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
         </div>
@@ -154,9 +154,12 @@ const Projects = () => (
             }
             .projects-inner-container {
                 box-sizing: border-box;
-                width: 90%;
+                width: 80%;
                 height: 100%;
                 margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
             }
             @media (max-width: 850px) {
                 .projects-inner-container {
@@ -166,8 +169,7 @@ const Projects = () => (
             h1 {
                 color: #E6296D;
                 letter-spacing: 5px;
-                margin-bottom: 10px;
-                margin-left: 25px;
+                // margin-bottom: 10px;
             }
             @media (max-width: 850px) {
                 h1 {
@@ -184,6 +186,7 @@ const Projects = () => (
                 height: 80%;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
             }
             .projects-list {
                 width: 50%;
@@ -255,10 +258,17 @@ const Projects = () => (
             }
             .projects-text {
                 width: 40%;
-                margin-left: 25px;
+                // margin-left: 25px;
+            }
+            .projects-text p {
+                letter-spacing: 3px;
+                word-spacing: 5px;
+                line-height: 20px;
+                text-align: justify;
+                font-family: 'Roboto',sans-serif;
             }
             @media (max-width: 850px) {
-                .project {
+                .projects-text {
                     display: none;
                 }
             }
