@@ -10,7 +10,6 @@ const Projects = () => (
 
         <div className="projects-container">
             <div className="projects-inner-container">
-                {/* <div className="projects-view"> */}
                     <div className="projects-text">
                         <h1>PROJECTS</h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -138,7 +137,6 @@ const Projects = () => (
                             <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                         </div>
 
-                    {/* </div> */}
                 </div>
             </div>
         </div>
@@ -169,7 +167,6 @@ const Projects = () => (
             h1 {
                 color: #E6296D;
                 letter-spacing: 5px;
-                // margin-bottom: 10px;
             }
             @media (max-width: 850px) {
                 h1 {
@@ -213,11 +210,6 @@ const Projects = () => (
                 margin-bottom: 20px;
             }
 
-            // Track
-            // .projects-list::-webkit-scrollbar-track {
-            //     background: #f1f1f1; 
-            // }
-
             // Handle
             .projects-list::-webkit-scrollbar-thumb {
                 background: none; 
@@ -236,8 +228,6 @@ const Projects = () => (
                 background-color: black;
                 margin-bottom: 30px;
                 padding: 20px;
-                // display: flex;
-                // align-items: center;
                 border-radius: 5px;
                 box-shadow: 0px 5px 20px 5px;
             }
@@ -258,7 +248,6 @@ const Projects = () => (
             }
             .projects-text {
                 width: 40%;
-                // margin-left: 25px;
             }
             .projects-text p {
                 letter-spacing: 3px;
@@ -281,7 +270,6 @@ const Projects = () => (
                 font-size: 0.9rem;
             }
             .project-tech {
-                // letter-spacing: 1px;
                 font-size: 0.9rem;
                 font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
             }
