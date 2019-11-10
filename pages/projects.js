@@ -336,14 +336,6 @@ const Projects = () => (
                     display: none;
                 }
             }
-            .project-img-container {
-                padding: 10%;
-            }
-            .project-img {
-                width: 90%;
-                height: 100%;
-                margin: auto;
-            }
         `}</style>
     </Layout>
 )
