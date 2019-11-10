@@ -10,7 +10,7 @@ const Projects = () => (
 
         <div className="projects-container">
             <div className="projects-inner-container">
-                    <div className="projects-text">
+                    {/* <div className="projects-text">
                         <h1>PROJECTS</h1>
                         <p>I've worked on several projects. As a Team Lead, as a Team Member or Individually. You can check the project cards for details on each project.</p>
                     </div>
@@ -137,7 +137,54 @@ const Projects = () => (
                             <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                         </div>
 
+                </div> */}
+                <div className="projects-list">
+
+
+                <div className="project-list-item">
+                    <div className="project-card-divider">
+                        <div className="project-card-header">
+                            <h3>Donor Management</h3>
+                            <div className="project-links">
+                                <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                            </div>
+                        </div>
+                        <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                        <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
+                    </div>
+                    <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                 </div>
+                <div className="project-list-item">
+                            <div className="project-card-divider">
+                                <div className="project-card-header">
+                                    <h3>Donor Management</h3>
+                                    <div className="project-links">
+                                        <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                        <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                    </div>
+                                </div>
+                                <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                                <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
+                            </div>
+                            <p className="project-tech">React || Express || Node || Google Map || Travis</p>
+                        </div>
+                        <div className="project-list-item">
+                            <div className="project-card-divider">
+                                <div className="project-card-header">
+                                    <h3>Donor Management</h3>
+                                    <div className="project-links">
+                                        <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                        <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                    </div>
+                                </div>
+                                <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                                <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
+                            </div>
+                            <p className="project-tech">React || Express || Node || Google Map || Travis</p>
+                        </div>
+                </div>
+
             </div>
         </div>
         <style jsx>{`
@@ -186,7 +233,7 @@ const Projects = () => (
                 align-items: center;
             }
             .projects-list {
-                width: 50%;
+                width: 100%;
                 height: 100%;
                 overflow-y: scroll;
                 padding: 25px;
