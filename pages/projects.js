@@ -17,7 +17,7 @@ const Projects = () => (
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
-                                    <h1>Donor Management</h1>
+                                    <h1>Where-To-Code</h1>
                                     <div className="project-links">
                                         <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
                                         <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
@@ -35,7 +35,7 @@ const Projects = () => (
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
-                                    <h1>Donor Management</h1>
+                                    <h1>Roadtrip</h1>
                                     <div className="project-links">
                                         <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
                                         <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
@@ -53,7 +53,7 @@ const Projects = () => (
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
-                                    <h1>Donor Management</h1>
+                                    <h1>ChallengeJS</h1>
                                     <div className="project-links">
                                         <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
                                         <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
@@ -71,7 +71,7 @@ const Projects = () => (
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
-                                    <h1>Donor Management</h1>
+                                    <h1>Modern Day Researcher</h1>
                                     <div className="project-links">
                                         <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
                                         <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
@@ -89,7 +89,7 @@ const Projects = () => (
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
-                                    <h1>Donor Management</h1>
+                                    <h1>Win Place Show</h1>
                                     <div className="project-links">
                                         <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
                                         <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
@@ -107,7 +107,7 @@ const Projects = () => (
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
-                                    <h1>Donor Management</h1>
+                                    <h1>Instagram Clone</h1>
                                     <div className="project-links">
                                         <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
                                         <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
@@ -125,7 +125,7 @@ const Projects = () => (
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
-                                    <h1>Donor Management</h1>
+                                    <h1>My Todo List</h1>
                                     <div className="project-links">
                                         <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
                                         <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
