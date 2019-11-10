@@ -7,8 +7,10 @@ import { faExternalLinkAlt as link, faEnvelope as mail } from '@fortawesome/free
 
 const styling = {
     // backgroundImage: "url('../static/challengejs.png')",
-    width:"100%",
-    height:"100%"
+    // width:"100%",
+    // height:"100%",
+    position: 'absolute',
+    
 }
 
 const Projects = () => (
@@ -148,7 +150,9 @@ const Projects = () => (
 
 
                 <div className="project-list-item">
-                    <img src={"../static/challengejs.png"} style={styling} alt="anubhav" height="200px"/>
+                    <img className="project-image" src={"../static/challengejs.png"} alt="anubhav" height="200px"/>
+                    <div className="project-content-container">
+
                     <div className="project-card-divider">
                         <div className="project-card-header">
                             <h3>Donor Management</h3>
@@ -161,6 +165,7 @@ const Projects = () => (
                         <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
                     </div>
                     <p className="project-tech">React || Express || Node || Google Map || Travis</p>
+                    </div>
                 </div>
                 <div className="project-list-item">
                             <div className="project-card-divider">
@@ -275,15 +280,28 @@ const Projects = () => (
                 background: #9ac6c9;; 
             }
 
+            .project-content-container {
+                padding: 20px;
+            }
+
             .project-list-item {
                 width: 100%;
                 height: auto;
                 box-sizing: border-box;
-                background-color: black;
+                // background-color: black;
                 margin-bottom: 30px;
-                padding: 20px;
+                // padding: 20px;
                 border-radius: 5px;
                 box-shadow: 0px 5px 20px 5px;
+                position: relative;
+                overflow: hidden;
+            }
+            .project-image {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background: no-repeat;
+                z-index: -1;
             }
             .dot {
                 width: 10px;
@@ -333,16 +351,6 @@ const Projects = () => (
             .project-links {
                 display: flex;
                 justify-content: flex-end;
-            }
-            .project-image {
-                // width: 100%;
-                // height: 100%;
-                // position: relative;
-                // background: no-repeat;
-                background: url("../static/challengejs.png");
-                background-size:contain;
-                background-position:top;
-                background: cover;
             }
             .bar-icon {
                 margin-left: auto;
