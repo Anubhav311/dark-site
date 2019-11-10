@@ -148,23 +148,22 @@ const Projects = () => (
                 </div> */}
                 <div className="projects-list">
 
-
                 <div className="project-list-item">
+                    <div className="content-overlay"></div>
                     <img className="project-image" src={"../static/challengejs.png"} alt="anubhav" height="200px"/>
-                    <div className="project-content-container">
-
-                    <div className="project-card-divider">
-                        <div className="project-card-header">
-                            <h3>Donor Management</h3>
-                            <div className="project-links">
-                                <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
-                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                    <div className="project-content-container fadeIn-bottom">
+                        <div className="project-card-divider">
+                            <div className="project-card-header">
+                                <h3>Donor Management</h3>
+                                <div className="project-links">
+                                    <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                    <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                </div>
                             </div>
+                            <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
+                            <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
                         </div>
-                        <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
-                        <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
-                    </div>
-                    <p className="project-tech">React || Express || Node || Google Map || Travis</p>
+                        <p className="project-tech">React || Express || Node || Google Map || Travis</p>
                     </div>
                 </div>
                 <div className="project-list-item">
@@ -284,9 +283,55 @@ const Projects = () => (
                 padding: 20px;
             }
 
+            .content-overlay {
+                background: rgba(0,0,0,0.7);
+                position: absolute;
+                height: 99%;
+                width: 100%;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                opacity: 0;
+                -webkit-transition: all 0.4s ease-in-out 0s;
+                -moz-transition: all 0.4s ease-in-out 0s;
+                transition: all 0.4s ease-in-out 0s;
+            }
+
+            .project-list-item:hover .content-overlay{
+                opacity: 1;
+            }
+
+            .project-content-container {
+                position: absolute;
+                text-align: center;
+                padding-left: 1em;
+                padding-right: 1em;
+                width: 100%;
+                top: 50%;
+                left: 50%;
+                opacity: 0;
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                -webkit-transition: all 0.3s ease-in-out 0s;
+                -moz-transition: all 0.3s ease-in-out 0s;
+                transition: all 0.3s ease-in-out 0s;
+            }
+
+            .project-list-item:hover .project-content-container{
+                top: 50%;
+                left: 50%;
+                opacity: 1;
+            }
+
+            .fadeIn-bottom{
+                top: 80%;
+            }
+
             .project-list-item {
                 width: 100%;
-                height: auto;
+                height: 300px;
                 box-sizing: border-box;
                 // background-color: black;
                 margin-bottom: 30px;
