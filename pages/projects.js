@@ -142,6 +142,7 @@ const Projects = () => (
 
 
                 <div className="project-list-item">
+                    <img className="project-image" src={"../static/challengejs.png"} alt="anubhav" height="200px"/>
                     <div className="project-card-divider">
                         <div className="project-card-header">
                             <h3>Donor Management</h3>
@@ -326,6 +327,12 @@ const Projects = () => (
             .project-links {
                 display: flex;
                 justify-content: flex-end;
+            }
+            .project-image {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                background: no-repeat;
             }
             .bar-icon {
                 margin-left: auto;
