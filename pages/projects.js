@@ -161,9 +161,9 @@ const Projects = () => (
                                 </div>
                             </div>
                             <p className="project-description" style={{marginBottom: "20px"}}>Where to code is an online platform for finding nearby places where user can sit and work remotely.</p>
-                            <p className="project-description" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
+                            <p className="project-description mobile-view-hide" style={{marginBottom: "40px"}}>I was working as a Team Lead for this project.</p>
                         </div>
-                        <p className="project-tech">React || Express || Node || Google Map || Travis</p>
+                        <p className="project-tech mobile-view-hide">React || Express || Node || Google Map || Travis</p>
                     </div>
                 </div>
                 <div className="project-list-item">
@@ -242,6 +242,11 @@ const Projects = () => (
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+            }
+            @media (max-width: 850px) {
+                .mobile-view-hide {
+                    display: none;
+                }
             }
             .projects-list {
                 width: 100%;
