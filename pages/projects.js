@@ -5,6 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub as github } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt as link, faEnvelope as mail } from '@fortawesome/free-solid-svg-icons';
 
+const styling = {
+    // backgroundImage: "url('../static/challengejs.png')",
+    width:"100%",
+    height:"100%"
+}
+
 const Projects = () => (
     <Layout>
 
@@ -142,7 +148,7 @@ const Projects = () => (
 
 
                 <div className="project-list-item">
-                    <img className="project-image" src={"../static/challengejs.png"} alt="anubhav" height="200px"/>
+                    <img src={"../static/challengejs.png"} style={styling} alt="anubhav" height="200px"/>
                     <div className="project-card-divider">
                         <div className="project-card-header">
                             <h3>Donor Management</h3>
@@ -329,10 +335,14 @@ const Projects = () => (
                 justify-content: flex-end;
             }
             .project-image {
-                width: 100%;
-                height: 100%;
-                position: relative;
-                background: no-repeat;
+                // width: 100%;
+                // height: 100%;
+                // position: relative;
+                // background: no-repeat;
+                background: url("../static/challengejs.png");
+                background-size:contain;
+                background-position:top;
+                background: cover;
             }
             .bar-icon {
                 margin-left: auto;
