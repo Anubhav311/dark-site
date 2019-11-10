@@ -13,47 +13,47 @@ const Tech = () => (
                     <div className="tech-list-item">
                         <div className="dot"></div>
                         <p>JavaScript</p>
-                        <img className="logo" src="../static/javascript.png" alt="javascript" height="40px"/>
+                        <img className="logo" src="../static/tech-images/javascript.png" alt="javascript" height="40px"/>
                     </div>
                     <div className="tech-list-item">
                         <div className="dot"></div>
                         <p>Python</p>
-                        <img className="logo" src="../static/python.png" alt="python" height="40px"/>
+                        <img className="logo" src="../static/tech-images/python.png" alt="python" height="40px"/>
                     </div>
                     <div className="tech-list-item">
                         <div className="dot"></div>
                         <p>React</p>
-                        <img className="logo" src="../static/react.png" alt="react" height="40px"/>
+                        <img className="logo" src="../static/tech-images/react.png" alt="react" height="40px"/>
                     </div>
                     <div className="tech-list-item">
                         <div className="dot"></div>
                         <p>Next</p>
-                        <img className="logo" src="../static/next_black.png" alt="next" height="40px"/>
+                        <img className="logo" src="../static/tech-images/next_black.png" alt="next" height="40px"/>
                     </div>
                     <div className="tech-list-item">
                         <div className="dot"></div>
                         <p>Redux</p>
-                        <img className="logo" src="../static/redux.png" alt="redux" height="40px"/>
+                        <img className="logo" src="../static/tech-images/redux.png" alt="redux" height="40px"/>
                     </div>
                     <div className="tech-list-item">
                         <div className="dot"></div>
                         <p>Node</p>
-                        <img className="logo" src="../static/node.png" alt="node" height="40px"/>
+                        <img className="logo" src="../static/tech-images/node.png" alt="node" height="40px"/>
                     </div>
                     <div className="tech-list-item">
                         <div className="dot"></div>
                         <p>Express</p>
-                        <img className="logo" src="../static/express.png" alt="express" height="40px"/>
+                        <img className="logo" src="../static/tech-images/express.png" alt="express" height="40px"/>
                     </div>
                     <div className="tech-list-item">
                         <div className="dot"></div>
                         <p>Django</p>
-                        <img className="logo" src="../static/django.png" alt="django" height="40px"/>
+                        <img className="logo" src="../static/tech-images/django.png" alt="django" height="40px"/>
                     </div>
                     <div className="tech-list-item">
                         <div className="dot"></div>
                         <p>GitHub</p>
-                        <img className="logo" src="../static/github.png" alt="github" height="40px"/>
+                        <img className="logo" src="../static/tech-images/github.png" alt="github" height="40px"/>
                     </div>
                 </div>
             </div>
