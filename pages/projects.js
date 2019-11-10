@@ -154,7 +154,7 @@ const Projects = () => (
                     <div className="project-content-container fadeIn-bottom">
                         <div className="project-card-divider">
                             <div className="project-card-header">
-                                <h3>Donor Management</h3>
+                                <h1>Donor Management</h1>
                                 <div className="project-links">
                                     <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
                                     <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
@@ -279,14 +279,10 @@ const Projects = () => (
                 background: #9ac6c9;; 
             }
 
-            .project-content-container {
-                padding: 20px;
-            }
-
             .content-overlay {
                 background: rgba(0,0,0,0.7);
                 position: absolute;
-                height: 99%;
+                height: 100%;
                 width: 100%;
                 left: 0;
                 top: 0;
@@ -303,11 +299,12 @@ const Projects = () => (
             }
 
             .project-content-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 position: absolute;
-                text-align: center;
-                padding-left: 1em;
-                padding-right: 1em;
-                width: 100%;
+                width: 95%;
+                height: 90%;
                 top: 50%;
                 left: 50%;
                 opacity: 0;
