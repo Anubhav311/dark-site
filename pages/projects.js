@@ -13,7 +13,7 @@ const Projects = () => (
                 <div className="projects-list">
                     <div className="project-list-item">
                         <div className="content-overlay"></div>
-                        <img className="project-image" src={"../static/challengejs.png"} alt="anubhav" height="200px"/>
+                        <img className="project-image" src={"../static/where-to-code.png"} alt="anubhav" height="200px"/>
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
@@ -31,7 +31,7 @@ const Projects = () => (
                     </div>
                     <div className="project-list-item">
                         <div className="content-overlay"></div>
-                        <img className="project-image" src={"../static/challengejs.png"} alt="anubhav" height="200px"/>
+                        <img className="project-image" src={"../static/roadtrip.png"} alt="anubhav" height="200px"/>
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
@@ -67,7 +67,7 @@ const Projects = () => (
                     </div>
                     <div className="project-list-item">
                         <div className="content-overlay"></div>
-                        <img className="project-image" src={"../static/challengejs.png"} alt="anubhav" height="200px"/>
+                        <img className="project-image" src={"../static/modern-day-researcher.png"} alt="anubhav" height="200px"/>
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
@@ -85,7 +85,7 @@ const Projects = () => (
                     </div>
                     <div className="project-list-item">
                         <div className="content-overlay"></div>
-                        <img className="project-image" src={"../static/challengejs.png"} alt="anubhav" height="200px"/>
+                        <img className="project-image" src={"../static/winplaceshow.png"} alt="anubhav" height="200px"/>
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
@@ -103,7 +103,7 @@ const Projects = () => (
                     </div>
                     <div className="project-list-item">
                         <div className="content-overlay"></div>
-                        <img className="project-image" src={"../static/challengejs.png"} alt="anubhav" height="200px"/>
+                        <img className="project-image" src={"../static/insta_clone.png"} alt="anubhav" height="200px"/>
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
@@ -121,7 +121,7 @@ const Projects = () => (
                     </div>
                     <div className="project-list-item">
                         <div className="content-overlay"></div>
-                        <img className="project-image" src={"../static/challengejs.png"} alt="anubhav" height="200px"/>
+                        <img className="project-image" src={"../static/todo-list.png"} alt="anubhav" height="200px"/>
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
@@ -139,7 +139,7 @@ const Projects = () => (
                     </div>
                     <div className="project-list-item">
                         <div className="content-overlay"></div>
-                        <img className="project-image" src={"../static/challengejs.png"} alt="anubhav" height="200px"/>
+                        <img className="project-image" src={"../static/donor_management.png"} alt="anubhav" height="200px"/>
                         <div className="project-content-container fadeIn-bottom">
                             <div className="project-card-divider">
                                 <div className="project-card-header">
