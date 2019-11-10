@@ -12,8 +12,8 @@ const Layout = ({ children }) => (
         </Head>
     <div className='inner-div'>
         <Link href="/">
-            <a>
-                <h2><span style={{color: '#E6296D', fontWeight: '900'}}>ANUBHAV</span>  BHAMBRI</h2>
+            <a style={{display: 'inline'}}>
+                <h2 style={{display: 'inline'}}><span style={{color: '#E6296D', fontWeight: '900'}}>ANUBHAV</span>  BHAMBRI</h2>
             </a>
         </Link>
         <nav>
