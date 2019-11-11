@@ -1,9 +1,11 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import navItems from '../data/navItems';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faTachometerAlt, faBox, faHeart, faEnvelopeOpen, faEnvelope, faMousePointer, faChevronUp, faWrench, faTimes, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 library.add(faTachometerAlt, faBox, faHeart, faEnvelopeOpen, faEnvelope, faMousePointer, faChevronUp, faChevronDown, faWrench, faTimes)
+
 
 const Layout = ({ children }) => (
     <div className='container-div'>
@@ -18,9 +20,9 @@ const Layout = ({ children }) => (
         </Link>
         <nav>
             <ul>
-                <li><Link href="/about"><a>ABOUT</a></Link></li>
-                <li><Link href="/tech"><a>TECH</a></Link></li>
-                <li><Link href="/projects"><a>PROJECTS</a></Link></li>
+                {navItems.map(nav => (
+                    <li><Link href={nav.route}><a>{nav.text}</a></Link></li>                    
+                ))}
             </ul>  
         </nav>
         {children}
