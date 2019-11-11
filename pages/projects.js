@@ -1,9 +1,9 @@
 import React from 'react'
-
-import Layout from '../components/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub as github } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt as link, faEnvelope as mail } from '@fortawesome/free-solid-svg-icons';
+
+import Layout from '../components/Layout';
 import projects from '../data/projects';
 
 const Projects = () => (
