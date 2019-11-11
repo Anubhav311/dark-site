@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import navItems from '../data/navItems';
+import { navItems } from '../data/data';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faTachometerAlt, faBox, faHeart, faEnvelopeOpen, faEnvelope, faMousePointer, faChevronUp, faWrench, faTimes, faChevronDown } from '@fortawesome/free-solid-svg-icons'

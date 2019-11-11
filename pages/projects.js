@@ -4,7 +4,7 @@ import { faGithub as github } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt as link, faEnvelope as mail } from '@fortawesome/free-solid-svg-icons';
 
 import Layout from '../components/Layout';
-import projects from '../data/projects';
+import { projects } from '../data/data';
 
 const Projects = () => (
     <Layout>

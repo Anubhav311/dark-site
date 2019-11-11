@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope as mail } from '@fortawesome/free-solid-svg-icons';
 
 import Layout from '../components/Layout';
-import contacts from '../data/contacts';
+import { contacts } from '../data/data';
 
 
 const Contact = () => (

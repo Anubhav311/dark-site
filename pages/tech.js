@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/Layout';
-import technologies from '../data/technologies';
+import { technologies } from '../data/data';
 
 
 const Tech = () => (
