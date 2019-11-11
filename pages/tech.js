@@ -1,6 +1,45 @@
 import React from 'react'
 import Layout from '../components/Layout';
 
+let technologies = [
+    {
+        name: 'JavaScript',
+        logo: '../static/tech-images/javascript.png',
+    },
+    {
+        name: 'Python',
+        logo: '../static/tech-images/python.png',
+    },
+    {
+        name: 'React',
+        logo: '../static/tech-images/react.png',
+    },
+    {
+        name: 'Next',
+        logo: '../static/tech-images/next_black.png',
+    },
+    {
+        name: 'Redux',
+        logo: '../static/tech-images/redux.png',
+    },
+    {
+        name: 'Node',
+        logo: '../static/tech-images/node.png',
+    },
+    {
+        name: 'Express',
+        logo: '../static/tech-images/express.png',
+    },
+    {
+        name: 'Django',
+        logo: '../static/tech-images/django.png',
+    },
+    {
+        name: 'GitHub',
+        logo: '../static/tech-images/github.png',
+    },
+]
+
 const Tech = () => (
     <Layout>
         <div className="tech-container">
@@ -10,51 +49,13 @@ const Tech = () => (
                     <p>I've been using multiple technologies for creating Full-Stack Web Applications. My favorite is MERN stack but I also have some experience with Django and Python.</p>
                 </div>
                 <div className="tech-list">
-                    <div className="tech-list-item">
-                        <div className="dot"></div>
-                        <p>JavaScript</p>
-                        <img className="logo" src="../static/tech-images/javascript.png" alt="javascript" height="40px"/>
-                    </div>
-                    <div className="tech-list-item">
-                        <div className="dot"></div>
-                        <p>Python</p>
-                        <img className="logo" src="../static/tech-images/python.png" alt="python" height="40px"/>
-                    </div>
-                    <div className="tech-list-item">
-                        <div className="dot"></div>
-                        <p>React</p>
-                        <img className="logo" src="../static/tech-images/react.png" alt="react" height="40px"/>
-                    </div>
-                    <div className="tech-list-item">
-                        <div className="dot"></div>
-                        <p>Next</p>
-                        <img className="logo" src="../static/tech-images/next_black.png" alt="next" height="40px"/>
-                    </div>
-                    <div className="tech-list-item">
-                        <div className="dot"></div>
-                        <p>Redux</p>
-                        <img className="logo" src="../static/tech-images/redux.png" alt="redux" height="40px"/>
-                    </div>
-                    <div className="tech-list-item">
-                        <div className="dot"></div>
-                        <p>Node</p>
-                        <img className="logo" src="../static/tech-images/node.png" alt="node" height="40px"/>
-                    </div>
-                    <div className="tech-list-item">
-                        <div className="dot"></div>
-                        <p>Express</p>
-                        <img className="logo" src="../static/tech-images/express.png" alt="express" height="40px"/>
-                    </div>
-                    <div className="tech-list-item">
-                        <div className="dot"></div>
-                        <p>Django</p>
-                        <img className="logo" src="../static/tech-images/django.png" alt="django" height="40px"/>
-                    </div>
-                    <div className="tech-list-item">
-                        <div className="dot"></div>
-                        <p>GitHub</p>
-                        <img className="logo" src="../static/tech-images/github.png" alt="github" height="40px"/>
-                    </div>
+                    {technologies.map(tech => (
+                        <div className="tech-list-item">
+                            <div className="dot"></div>
+                            <p>{tech.name}</p>
+                            <img className="logo" src={tech.logo} alt="javascript" height="40px"/>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
