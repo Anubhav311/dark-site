@@ -6,6 +6,23 @@ import { faEnvelope as mail } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn as linkedin, faTwitter as twitter, faGithub as github } from '@fortawesome/free-brands-svg-icons';
 // import '@fortawesome/fontawesome-svg-core/styles.css';
 
+let contacts = [
+    {
+        url: 'https://github.com/Anubhav311',
+        icon: github,
+        text: '@Anubhav311'
+    },
+    {
+        url: 'https://twitter.com/anubhav_bhambri',
+        icon: twitter,
+        text: '@anubhav_bhambri'
+    },
+    {
+        url: 'https://www.linkedin.com/in/anubhav-bhambri',
+        icon: linkedin,
+        text: '@anubhav-bhambri'
+    },
+]
 
 const Contact = () => (
     <Layout>
@@ -22,27 +39,17 @@ const Contact = () => (
                     <a href="mailto:anubhavbhambri1@gmail.com">
                         <div className="contact-medium-container">
                             <FontAwesomeIcon className="icon" icon={mail} size="2x"/>
-                            <p className="contact-medium-text">anubhavbhambri1@gmail.com</p><i class="far fa-envelope"></i>
+                            <p className="contact-medium-text">anubhavbhambri1@gmail.com</p>
                         </div>
                     </a>
-                    <a href="https://github.com/Anubhav311" target="_blank" rel="noopener noreferrer">
-                        <div className="contact-medium-container">
-                            <FontAwesomeIcon className="icon" icon={github} size="2x"/>
-                            <p className="contact-medium-text">@Anubhav311</p>
-                        </div>
-                    </a>
-                    <a href="https://twitter.com/anubhav_bhambri" target="_blank" rel="noopener noreferrer">
-                        <div className="contact-medium-container">
-                            <FontAwesomeIcon className="icon" icon={twitter} size="2x"/>
-                            <p className="contact-medium-text">@anubhav_bhambri</p>
-                        </div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/anubhav-bhambri" target="_blank" rel="noopener noreferrer">
-                        <div className="contact-medium-container">
-                            <FontAwesomeIcon className="icon" icon={linkedin} size="2x"/>
-                            <p className="contact-medium-text">@anubhav-bhambri</p>
-                        </div>
-                    </a>
+                    {contacts.map(contact => (
+                        <a href={contact.url} target="_blank" rel="noopener noreferrer">
+                            <div className="contact-medium-container">
+                                <FontAwesomeIcon className="icon" icon={contact.icon} size="2x"/>
+                                <p className="contact-medium-text">{contact.text}</p>
+                            </div>
+                        </a>
+                    ))}
                 </div>
             </div>
         </div>
