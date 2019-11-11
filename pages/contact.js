@@ -1,28 +1,11 @@
 import React from 'react'
-import Layout from '../components/Layout';
 import Head from 'next/head';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope as mail } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedinIn as linkedin, faTwitter as twitter, faGithub as github } from '@fortawesome/free-brands-svg-icons';
-// import '@fortawesome/fontawesome-svg-core/styles.css';
 
-let contacts = [
-    {
-        url: 'https://github.com/Anubhav311',
-        icon: github,
-        text: '@Anubhav311'
-    },
-    {
-        url: 'https://twitter.com/anubhav_bhambri',
-        icon: twitter,
-        text: '@anubhav_bhambri'
-    },
-    {
-        url: 'https://www.linkedin.com/in/anubhav-bhambri',
-        icon: linkedin,
-        text: '@anubhav-bhambri'
-    },
-]
+import Layout from '../components/Layout';
+import contacts from '../data/contacts';
+
 
 const Contact = () => (
     <Layout>
