@@ -16,19 +16,31 @@ const Layout = ({ children, props, title="" }) => (
         <div className='inner-div'>
             <Link href="/">
                 <a style={{display: 'inline'}}>
-                    <h2 style={{display: 'inline'}}><span style={{color: '#E6296D', fontWeight: '900'}}>ANUBHAV</span>  BHAMBRI</h2>
+                    <h2 style={{display: 'inline'}}>
+                        <span style={{color: '#E6296D', fontWeight: '900'}}>ANUBHAV</span>  BHAMBRI
+                    </h2>
                 </a>
             </Link>
             <nav>
                 <ul>
                     {navItems.map(nav => (<>
-                        <li id={title == nav.route ? "active" : ""}><Link href={nav.route}><a>{nav.text}</a></Link></li> 
+                        <li id={title == nav.route ? "active" : ""}>
+                            <Link href={nav.route}>
+                                <a>{nav.text}</a>
+                            </Link>
+                        </li> 
                     </>
                     ))}
                 </ul>  
             </nav>
             {children}
-            <Link href="/contact"><a><p className='contact'>CONTACT</p></a></Link>
+            <Link href="/contact">
+                <a>
+                    <p className='contact'>
+                        CONTACT
+                    </p>
+                </a>
+            </Link>
         </div>
 
         <style jsx>{`
