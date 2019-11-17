@@ -23,7 +23,6 @@ const Layout = ({ children, props, title="" }) => (
                 <ul>
                     {navItems.map(nav => (<>
                         <li id={title == nav.route ? "active" : ""}><Link href={nav.route}><a>{nav.text}</a></Link></li> 
-                        {console.log(props)}
                     </>
                     ))}
                 </ul>  
