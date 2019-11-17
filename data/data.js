@@ -40,6 +40,8 @@ export let projects = [
         role: 'I was working as a Team Lead for this project.',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/where-to-code.png',
+        github: '',
+        url: 'https://www.wheretocode.com/',
     },
     {
         title: 'Roadtrip',
@@ -47,6 +49,8 @@ export let projects = [
         role: 'I was working as a Team Lead for this project.',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/roadtrip.png',
+        github: '',
+        url: 'https://www.wheretocode.com/',
     },
     {
         title: 'ChallengeJS',
@@ -54,6 +58,8 @@ export let projects = [
         role: 'I was working as a Team Lead for this project.',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/challengejs.png',
+        github: '',
+        url: 'https://www.wheretocode.com/',
     },
     {
         title: 'Modern Day Researcher',
@@ -61,6 +67,8 @@ export let projects = [
         role: 'I was working as a Team Lead for this project.',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/modern-day-researcher.png',
+        github: '',
+        url: 'https://www.wheretocode.com/',
     },
     {
         title: 'Win Place Show',
@@ -68,6 +76,8 @@ export let projects = [
         role: 'I was working as a Team Lead for this project.',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/winplaceshow.png',
+        github: '',
+        url: 'https://www.wheretocode.com/',
     },
     {
         title: 'Instagram Clone',
@@ -75,6 +85,8 @@ export let projects = [
         role: 'I was working as a Team Lead for this project.',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/insta_clone.png',
+        github: '',
+        url: 'https://www.wheretocode.com/',
     },
     {
         title: 'Todo List',
@@ -82,6 +94,8 @@ export let projects = [
         role: 'I was working as a Team Lead for this project.',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/todo-list.png',
+        github: '',
+        url: 'https://www.wheretocode.com/',
     },
     {
         title: 'Donor Management',
@@ -89,6 +103,8 @@ export let projects = [
         role: 'I was working as a Team Lead for this project.',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/donor_management.png',
+        github: '',
+        url: 'https://www.wheretocode.com/',
     },
 ]
 

@@ -21,8 +21,12 @@ const Projects = (props) => (
                                     <div className="project-card-header">
                                         <h1>{project.title}</h1>
                                         <div className="project-links">
-                                            <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
-                                            <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                            <a href={project.github} target="_blank" rel="noopener noreferrer">
+                                                <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                            </a>
+                                            <a href={project.url} target="_blank" rel="noopener noreferrer">
+                                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                            </a>
                                         </div>
                                     </div>
                                     <p className="project-description" style={{marginBottom: "20px"}}>{project.description}.</p>

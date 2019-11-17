@@ -7,7 +7,7 @@ import { faTachometerAlt, faBox, faHeart, faEnvelopeOpen, faEnvelope, faMousePoi
 library.add(faTachometerAlt, faBox, faHeart, faEnvelopeOpen, faEnvelope, faMousePointer, faChevronUp, faChevronDown, faWrench, faTimes)
 
 
-const Layout = ({ children, props, title="" }) => (
+const Layout = ({ children, title="" }) => (
     <div className='container-div'>
         <Head>
             <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
