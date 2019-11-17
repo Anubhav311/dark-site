@@ -29,7 +29,7 @@ const Projects = (props) => (
                                             </a>
                                         </div>
                                     </div>
-                                    <p className="project-description" style={{marginBottom: "20px"}}>{project.description}.</p>
+                                    <p className="project-description" style={{marginBottom: "20px"}}>{project.description}</p>
                                     <p className="project-description mobile-view-hide" style={{marginBottom: "40px"}}>{project.role}</p>
                                 </div>
                                 <p className="project-tech mobile-view-hide">{project.tech}</p>
