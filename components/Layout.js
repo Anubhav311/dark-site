@@ -120,7 +120,7 @@ const Layout = ({ children, props, title="" }) => (
         border-bottom: 2px solid #E6296D;
     }
     #active {
-        background: black;
+        font-weight: bold;
     }
     `}</style>
     <style global jsx>{`
