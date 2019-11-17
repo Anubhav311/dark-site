@@ -7,7 +7,7 @@ import { faTachometerAlt, faBox, faHeart, faEnvelopeOpen, faEnvelope, faMousePoi
 library.add(faTachometerAlt, faBox, faHeart, faEnvelopeOpen, faEnvelope, faMousePointer, faChevronUp, faChevronDown, faWrench, faTimes)
 
 
-const Layout = ({ children }) => (
+const Layout = ({ children, props, title="" }) => (
     <div className='container-div'>
         <Head>
             <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
@@ -20,8 +20,10 @@ const Layout = ({ children }) => (
         </Link>
         <nav>
             <ul>
-                {navItems.map(nav => (
-                    <li><Link href={nav.route}><a>{nav.text}</a></Link></li>                    
+                {navItems.map(nav => (<>
+                    <li id={title == nav.route ? "active" : ""}><Link href={nav.route}><a>{nav.text}</a></Link></li> 
+                    {console.log(props)}
+                </>
                 ))}
             </ul>  
         </nav>
@@ -116,6 +118,9 @@ const Layout = ({ children }) => (
         bottom: 0;
         left: 15%;
         border-bottom: 2px solid #E6296D;
+    }
+    #active {
+        font-weight: bold;
     }
     `}</style>
     <style global jsx>{`

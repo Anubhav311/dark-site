@@ -4,8 +4,8 @@ import Layout from '../components/Layout';
 import { technologies } from '../data/data';
 
 
-const Tech = () => (
-    <Layout>
+const Tech = (props) => (
+    <Layout title={props.url.pathname}>
         <div className="tech-container">
             <div className="tech-inner-container">
                 <div className="tech-text">

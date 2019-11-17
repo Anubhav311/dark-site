@@ -1,8 +1,8 @@
 import React from 'react'
 import Layout from '../components/Layout';
 
-const About = () => (
-    <Layout>
+const About = (props) => (
+    <Layout title={props.url.pathname}>
         <div className="about-container">
             <div className="about-inner-container">
                 <h1>ABOUT</h1>
