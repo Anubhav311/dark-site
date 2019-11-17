@@ -11,6 +11,7 @@ const Layout = ({ children, props, title="" }) => (
     <div className='container-div'>
         <Head>
             <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+            <title>Anubhav</title>
         </Head>
         <div className='inner-div'>
             <Link href="/">
