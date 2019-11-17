@@ -6,8 +6,8 @@ import { faExternalLinkAlt as link, faEnvelope as mail } from '@fortawesome/free
 import Layout from '../components/Layout';
 import { projects } from '../data/data';
 
-const Projects = () => (
-    <Layout>
+const Projects = (props) => (
+    <Layout title={props.url.pathname}>
 
         <div className="projects-container">
             <div className="projects-inner-container">
