@@ -12,40 +12,49 @@ const Projects = (props) => (
         <div className="projects-container">
             <div className="projects-inner-container">
                 <div className="header">
-                    <p>TITLE</p>
-                    <p>DESCRIPTION</p>
-                    <p>ROLE</p>
-                    <p>TECH-STACK</p>
-                    <p>LINKS</p>
+                    <div className="column-item">
+                        <p>TITLE</p>
+                    </div>
+                    <div className="column-item">
+                        <p>DESCRIPTION</p>
+                    </div>
+                    <div className="column-item">
+                        <p>ROLE</p>
+                    </div>
+                    <div className="column-item">
+                        <p>TECH-STACK</p>
+                    </div>
+                    <div className="column-item">
+                        <p>LINKS</p>
+                    </div>
                 </div>
                 <div className="projects-list">
                     {projects.map(project => (
                         <div className="project-item">
-                            {/* <div className="content-overlay"></div> */}
-                                {/* <div className="project-card-divider"> */}
-                                    {/* <div className="project-card-header"> */}
-                                <div className="column-item" style={{width: "20%"}}>
-                                    <p>{project.title}</p>
-                                </div>
-                                <div className="column-item" style={{width: "20%", textAlign: "left"}}>
-                                    <p>{project.description}</p>
-                                </div>
-                                <div className="column-item" style={{width: "20%", textAlign: "center"}}>
-                                    <p className="">{project.role}</p>
-                                </div>
-                                <div className="column-item" style={{width: "20%", textAlign: "right"}}>
-                                    <p className="">{project.tech}</p>
-                                </div>
-                                <div className="column-item" style={{width: "20%", textAlign: "right"}}>
+                            <div className="column-item">
+                                <p style={{color: "#4B4B4B", letterSpacing: "1px"}}>{project.title}</p>
+                            </div>
+                            <div className="column-item">
+                                <p style={{color: "#4B4B4B", letterSpacing: "1px"}}>{project.description}</p>
+                            </div>
+                            <div className="column-item">
+                                <p style={{color: "#4B4B4B", letterSpacing: "1px"}} className="">{project.role}</p>
+                            </div>
+                            <div className="column-item">
+                                <p style={{color: "#4B4B4B", letterSpacing: "1px"}} className="">{project.tech}</p>
+                            </div>
+                            <div className="column-item" style={{display: "flex", justifyContent: "center"}}>
+                                <div style={{width: "40%", height: "100%", borderRight: "1px solid #4B4B4B"}}>
                                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                                         <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
                                     </a>
+                                </div>
+                                <div style={{width: "40%", height: "100%"}}>
                                     <a href={project.url} target="_blank" rel="noopener noreferrer">
                                         <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
                                     </a>
                                 </div>
-                                    {/* </div> */}
-                                {/* </div> */}
+                            </div>
                         </div>
                     ))}
                     {/* {projects.map(project => (
@@ -163,16 +172,22 @@ const Projects = (props) => (
                 align-items: center;
                 margin: auto;
                 width: 95%;
-                // height: 60px;
+                height: 100px;
                 box-sizing: border-box;
-                margin-bottom: 30px;
+                margin-bottom: 50px;
                 margin-top: 30px;
                 align-items: center;
                 border-radius: 10px;
                 box-shadow: 0px 5px 20px 5px;
             }
 
-
+            .column-item {
+                width: 20%;
+                // height: 100%;
+                text-align: center;
+                padding: 5px;
+                box-sizing: border-box;
+            }
 
 
 
