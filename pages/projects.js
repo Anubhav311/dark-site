@@ -14,11 +14,33 @@ const Projects = (props) => (
                 <div className="header">
                     <p>TITLE</p>
                     <p>DESCRIPTION</p>
+                    <p>ROLE</p>
                     <p>TECH-STACK</p>
                     <p>LINKS</p>
                 </div>
                 <div className="projects-list">
                     {projects.map(project => (
+                        <div className="project-item">
+                            {/* <div className="content-overlay"></div> */}
+                                {/* <div className="project-card-divider"> */}
+                                    {/* <div className="project-card-header"> */}
+                                <p>{project.title}</p>
+                                <p className="">{project.description}</p>
+                                <p className="">{project.role}</p>
+                                <p className="">{project.tech}</p>
+                                <div className="">
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                                        <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                    </a>
+                                    <a href={project.url} target="_blank" rel="noopener noreferrer">
+                                        <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                    </a>
+                                </div>
+                                    {/* </div> */}
+                                {/* </div> */}
+                        </div>
+                    ))}
+                    {/* {projects.map(project => (
                         <div className="project-list-item">
                             <div className="content-overlay"></div>
                             <img className="project-image" src={project.image} alt="anubhav" height="200px"/>
@@ -41,7 +63,7 @@ const Projects = (props) => (
                                 <p className="project-tech mobile-view-hide">{project.tech}</p>
                             </div>
                         </div>
-                    ))}
+                    ))} */}
                 </div>
             </div>
         </div>
@@ -76,7 +98,7 @@ const Projects = (props) => (
                 padding-right: 25px;
                 padding-left: 25px;
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-between;
                 font-size: 0.8rem;
                 letter-spacing: 2px;
             }
@@ -124,6 +146,20 @@ const Projects = (props) => (
                 border-radius: 5px;
             }
 
+            .project-item {
+                display: flex;
+            }
+
+
+
+
+
+
+
+
+
+
+
             .project-card-header {
                 display: flex;
                 justify-content: space-between;
@@ -167,7 +203,7 @@ const Projects = (props) => (
                 justify-content: space-between;
                 position: absolute;
                 width: 95%;
-                height: 90%;
+                height: auto;
                 top: 50%;
                 left: 50%;
                 opacity: 0;
