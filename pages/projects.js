@@ -24,11 +24,19 @@ const Projects = (props) => (
                             {/* <div className="content-overlay"></div> */}
                                 {/* <div className="project-card-divider"> */}
                                     {/* <div className="project-card-header"> */}
-                                <p>{project.title}</p>
-                                <p className="">{project.description}</p>
-                                <p className="">{project.role}</p>
-                                <p className="">{project.tech}</p>
-                                <div className="">
+                                <div className="column-item" style={{width: "20%"}}>
+                                    <p>{project.title}</p>
+                                </div>
+                                <div className="column-item" style={{width: "20%", textAlign: "left"}}>
+                                    <p>{project.description}</p>
+                                </div>
+                                <div className="column-item" style={{width: "20%", textAlign: "center"}}>
+                                    <p className="">{project.role}</p>
+                                </div>
+                                <div className="column-item" style={{width: "20%", textAlign: "right"}}>
+                                    <p className="">{project.tech}</p>
+                                </div>
+                                <div className="column-item" style={{width: "20%", textAlign: "right"}}>
                                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                                         <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
                                     </a>
@@ -132,7 +140,7 @@ const Projects = (props) => (
                 width: 100%;
                 height: 100%;
                 overflow-y: scroll;
-                padding: 25px;
+                // padding: 25px;
                 box-sizing: border-box;
             }
             @media (max-width: 850px) {
@@ -148,6 +156,20 @@ const Projects = (props) => (
 
             .project-item {
                 display: flex;
+                justify-content: space-between;
+                background-color: black;
+                padding: 10px;
+                font-size: 0.8rem;
+                align-items: center;
+                margin: auto;
+                width: 95%;
+                // height: 60px;
+                box-sizing: border-box;
+                margin-bottom: 30px;
+                margin-top: 30px;
+                align-items: center;
+                border-radius: 10px;
+                box-shadow: 0px 5px 20px 5px;
             }
 
 

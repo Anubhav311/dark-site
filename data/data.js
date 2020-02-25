@@ -36,8 +36,8 @@ export let navItems = [
 export let projects = [
     {
         title: 'Where-To-Code',
-        description: 'Where to code is an online platform for finding nearby places where user can sit and work remotely.',
-        role: 'I was working as a Team Lead for this project.',
+        description: 'A web application for finding places for remote work.',
+        role: 'Team Lead.',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/where-to-code.png',
         github: 'https://github.com/where-to-code',
@@ -45,8 +45,8 @@ export let projects = [
     },
     {
         title: 'Roadtrip',
-        description: 'Where to code is an online platform for finding nearby places where user can sit and work remotely.',
-        role: 'I was working as a Team Lead for this project.',
+        description: 'A Multi-user game made with google maps.',
+        role: 'Back-End Developer',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/roadtrip.png',
         github: 'https://github.com/lambda-mud',
@@ -54,8 +54,8 @@ export let projects = [
     },
     {
         title: 'ChallengeJS',
-        description: 'Where to code is an online platform for finding nearby places where user can sit and work remotely.',
-        role: 'I was working as a Team Lead for this project.',
+        description: 'A platform for practicing JavaScript problems.',
+        role: 'Full-Stack Developer',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/challengejs.png',
         github: 'https://github.com/labs13-clone',
@@ -63,8 +63,8 @@ export let projects = [
     },
     {
         title: 'Modern Day Researcher',
-        description: 'Where to code is an online platform for finding nearby places where user can sit and work remotely.',
-        role: 'I was working as a Team Lead for this project.',
+        description: 'Web application for managing and sharing links.',
+        role: 'Back-End Developer',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/modern-day-researcher.png',
         github: 'https://github.com/lambda-modern-day-researcher/modern-day-researcher-BE',
@@ -72,8 +72,8 @@ export let projects = [
     },
     {
         title: 'Win Place Show',
-        description: 'Where to code is an online platform for finding nearby places where user can sit and work remotely.',
-        role: 'I was working as a Team Lead for this project.',
+        description: 'Web application for finding data related to horse races',
+        role: 'Front-End Developer',
         tech: 'React || Express || Node || Google Map || Travis',
         image: '../static/project-images/winplaceshow.png',
         github: 'https://github.com/winplaceshow/wps-frontend',
