@@ -32,26 +32,26 @@ const Projects = (props) => (
                     {projects.map(project => (
                         <div className="project-item">
                             <div className="column-item">
-                                <p style={{color: "#4B4B4B", letterSpacing: "1px"}}>{project.title}</p>
+                                <p style={{color: "#4B4B4B", letterSpacing: "1px", fontWeight: "bold"}}>{project.title}</p>
                             </div>
                             <div className="column-item">
-                                <p style={{color: "#4B4B4B", letterSpacing: "1px"}}>{project.description}</p>
+                                <p style={{color: "#4B4B4B", letterSpacing: "1px", lineHeight: "1.1rem"}}>{project.description}</p>
                             </div>
                             <div className="column-item">
-                                <p style={{color: "#4B4B4B", letterSpacing: "1px"}} className="">{project.role}</p>
+                                <p style={{color: "#4B4B4B", letterSpacing: "1px", lineHeight: "1.1rem"}} className="">{project.role}</p>
                             </div>
                             <div className="column-item">
-                                <p style={{color: "#4B4B4B", letterSpacing: "1px"}} className="">{project.tech}</p>
+                                <p style={{color: "#4B4B4B", letterSpacing: "1px", lineHeight: "1.1rem"}} className="">{project.tech}</p>
                             </div>
                             <div className="column-item" style={{display: "flex", justifyContent: "center"}}>
-                                <div style={{width: "40%", height: "100%", borderRight: "1px solid #4B4B4B"}}>
+                                <div style={{width: "40%", height: "100%", borderRight: "1px solid white"}}>
                                     <a href={project.github} target="_blank" rel="noopener noreferrer">
-                                        <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
+                                        <FontAwesomeIcon style={{color: "white"}} className="icon" icon={github} size="2x"/>
                                     </a>
                                 </div>
                                 <div style={{width: "40%", height: "100%"}}>
                                     <a href={project.url} target="_blank" rel="noopener noreferrer">
-                                        <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
+                                        <FontAwesomeIcon style={{color: "white", marginLeft: "15px"}} icon={link} size="2x"/>
                                     </a>
                                 </div>
                             </div>
@@ -172,7 +172,7 @@ const Projects = (props) => (
                 align-items: center;
                 margin: auto;
                 width: 95%;
-                height: 100px;
+                height: 140px;
                 box-sizing: border-box;
                 margin-bottom: 50px;
                 margin-top: 30px;
