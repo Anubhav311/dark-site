@@ -11,6 +11,12 @@ const Projects = (props) => (
 
         <div className="projects-container">
             <div className="projects-inner-container">
+                <div className="header">
+                    <p>TITLE</p>
+                    <p>DESCRIPTION</p>
+                    <p>TECH-STACK</p>
+                    <p>LINKS</p>
+                </div>
                 <div className="projects-list">
                     {projects.map(project => (
                         <div className="project-list-item">
@@ -55,6 +61,7 @@ const Projects = (props) => (
                 height: 100%;
                 margin: auto;
                 display: flex;
+                flex-direction: column;
                 justify-content: space-between;
                 align-items: center;
             }
@@ -62,6 +69,16 @@ const Projects = (props) => (
                 .projects-inner-container {
                     width: 90%;
                 }
+            }
+            .header {
+                box-sizing: border-box;
+                width: 100%;
+                padding-right: 25px;
+                padding-left: 25px;
+                display: flex;
+                justify-content: space-around;
+                font-size: 0.8rem;
+                letter-spacing: 2px;
             }
             h1 {
                 color: #E6296D;
