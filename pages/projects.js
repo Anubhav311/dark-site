@@ -15,23 +15,6 @@ const Projects = (props) => (
                     <h1>PROJECTS</h1>
                     <p>I've been using multiple technologies for creating Full-Stack Web Applications. My favorite is PERN stack but I also have some experience with Next.js and Django.</p>
                 </div>
-                {/* <div className="header"> */}
-                    {/* <div className="column-item">
-                        <p>TITLE</p>
-                    </div>
-                    <div className="column-item">
-                        <p>DESCRIPTION</p>
-                    </div>
-                    <div className="column-item">
-                        <p>ROLE</p>
-                    </div>
-                    <div className="column-item">
-                        <p>TECH-STACK</p>
-                    </div>
-                    <div className="column-item">
-                        <p>LINKS</p>
-                    </div> */}
-                {/* </div> */}
                 <div className="projects-list">
                     {projects.map(project => (
                         <div className="project-item">
@@ -62,31 +45,6 @@ const Projects = (props) => (
                         </div>
                     ))}
 
-                    {/* OLD DESIGN */}
-                    {/* {projects.map(project => (
-                        <div className="project-list-item">
-                            <div className="content-overlay"></div>
-                            <img className="project-image" src={project.image} alt="anubhav" height="200px"/>
-                            <div className="project-content-container fadeIn-bottom">
-                                <div className="project-card-divider">
-                                    <div className="project-card-header">
-                                        <h1>{project.title}</h1>
-                                        <div className="project-links">
-                                            <a href={project.github} target="_blank" rel="noopener noreferrer">
-                                                <FontAwesomeIcon style={{color: "#4B4B4B"}} className="icon" icon={github} size="2x"/>
-                                            </a>
-                                            <a href={project.url} target="_blank" rel="noopener noreferrer">
-                                                <FontAwesomeIcon style={{color: "#4B4B4B", marginLeft: "15px"}} icon={link} size="2x"/>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <p className="project-description" style={{marginBottom: "20px"}}>{project.description}</p>
-                                    <p className="project-description mobile-view-hide" style={{marginBottom: "40px"}}>{project.role}</p>
-                                </div>
-                                <p className="project-tech mobile-view-hide">{project.tech}</p>
-                            </div>
-                        </div>
-                    ))} */}
                 </div>
             </div>
         </div>
