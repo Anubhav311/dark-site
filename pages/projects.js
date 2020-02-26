@@ -11,8 +11,12 @@ const Projects = (props) => (
 
         <div className="projects-container">
             <div className="projects-inner-container">
-                <div className="header">
-                    <div className="column-item">
+                <div className="project-text">
+                    <h1>PROJECTS</h1>
+                    <p>I've been using multiple technologies for creating Full-Stack Web Applications. My favorite is PERN stack but I also have some experience with Next.js and Django.</p>
+                </div>
+                {/* <div className="header"> */}
+                    {/* <div className="column-item">
                         <p>TITLE</p>
                     </div>
                     <div className="column-item">
@@ -26,8 +30,8 @@ const Projects = (props) => (
                     </div>
                     <div className="column-item">
                         <p>LINKS</p>
-                    </div>
-                </div>
+                    </div> */}
+                {/* </div> */}
                 <div className="projects-list">
                     {projects.map(project => (
                         <div className="project-item">
@@ -102,7 +106,7 @@ const Projects = (props) => (
                 height: 100%;
                 margin: auto;
                 display: flex;
-                flex-direction: column;
+                // flex-direction: column;
                 justify-content: space-between;
                 align-items: center;
             }
@@ -153,13 +157,13 @@ const Projects = (props) => (
                 }
             }
             .projects-list {
-                width: 100%;
+                width: 50%;
                 height: 100%;
                 overflow-y: scroll;
                 // padding: 25px;
                 box-sizing: border-box;
             }
-            @media (max-width: 850px) {
+            @media (max-width: 1000px) {
                 .projects-list {
                     width: 100%;
                 }
@@ -178,7 +182,7 @@ const Projects = (props) => (
                 font-size: 0.8rem;
                 align-items: center;
                 margin: auto;
-                width: 95%;
+                width: 80%;
                 height: 140px;
                 box-sizing: border-box;
                 margin-bottom: 50px;
@@ -186,12 +190,12 @@ const Projects = (props) => (
                 align-items: center;
                 border-radius: 10px;
                 box-shadow: 0px 5px 20px 5px;
+                flex-direction: column;
+                height: auto;
             }
 
             @media (max-width: 1000px) {
                 .project-item {
-                    flex-direction: column;
-                    height: auto;
                     width: 50%;
                 }
             }
@@ -202,7 +206,7 @@ const Projects = (props) => (
             }
 
             .column-item {
-                width: 20%;
+                width: 80%;
                 // height: 100%;
                 text-align: center;
                 padding: 5px;
@@ -211,6 +215,25 @@ const Projects = (props) => (
             @media (max-width: 1000px) {
                 .column-item {
                     width: 80%;
+                }
+            }
+            .project-text {
+                width: 40%;
+            }
+            @media (max-width: 850px) {
+                .project-text {
+                    width: 100%;
+                }
+            }
+            .project-text p {
+                letter-spacing: 3px;
+                word-spacing: 5px;
+                line-height: 20px;
+                text-align: justify;
+            }
+            @media (max-width: 1000px) {
+                .project-text {
+                    display: none;
                 }
             }
 
