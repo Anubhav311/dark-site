@@ -134,6 +134,10 @@ export let technologies = [
         logo: '../static/tech-images/node.png',
     },
     {
+        name: 'PostgreSQL',
+        logo: '../static/tech-images/postgresql.png'
+    },
+    {
         name: 'Express',
         logo: '../static/tech-images/express.png',
     },
