@@ -57,6 +57,8 @@ const Projects = (props) => (
                             </div>
                         </div>
                     ))}
+
+                    {/* OLD DESIGN */}
                     {/* {projects.map(project => (
                         <div className="project-list-item">
                             <div className="content-overlay"></div>
@@ -118,6 +120,11 @@ const Projects = (props) => (
                 justify-content: space-between;
                 font-size: 0.8rem;
                 letter-spacing: 2px;
+            }
+            @media (max-width: 1000px) {
+                .header {
+                    display: none;
+                }
             }
             h1 {
                 color: #E6296D;
@@ -181,6 +188,19 @@ const Projects = (props) => (
                 box-shadow: 0px 5px 20px 5px;
             }
 
+            @media (max-width: 1000px) {
+                .project-item {
+                    flex-direction: column;
+                    height: auto;
+                    width: 50%;
+                }
+            }
+            @media (max-width: 700px) {
+                .project-item {
+                    width: 70%;
+                }
+            }
+
             .column-item {
                 width: 20%;
                 // height: 100%;
@@ -188,6 +208,12 @@ const Projects = (props) => (
                 padding: 5px;
                 box-sizing: border-box;
             }
+            @media (max-width: 1000px) {
+                .column-item {
+                    width: 80%;
+                }
+            }
+
 
 
 
