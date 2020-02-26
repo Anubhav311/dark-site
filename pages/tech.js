@@ -10,7 +10,7 @@ const Tech = (props) => (
             <div className="tech-inner-container">
                 <div className="tech-text">
                     <h1>TECH-STACK</h1>
-                    <p>I've been using multiple technologies for creating Full-Stack Web Applications. My favorite is MERN stack but I also have some experience with Django and Python.</p>
+                    <p>I've been using multiple technologies for creating Full-Stack Web Applications. My favorite is PERN stack but I also have some experience with Next.js and Django.</p>
                 </div>
                 <div className="tech-list">
                     {technologies.map(tech => (
