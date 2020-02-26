@@ -13,7 +13,7 @@ const Projects = (props) => (
             <div className="projects-inner-container">
                 <div className="project-text">
                     <h1>PROJECTS</h1>
-                    <p>I've been using multiple technologies for creating Full-Stack Web Applications. My favorite is PERN stack but I also have some experience with Next.js and Django.</p>
+                    <p>Here are some projects that I have worked on in different capacities, like Team Lead, Full-Stack, Back-End or Front-End Developer</p>
                 </div>
                 <div className="projects-list">
                     {projects.map(project => (
