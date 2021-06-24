@@ -7,7 +7,7 @@ import Layout from '../components/Layout';
 import { projects } from '../data/data';
 
 const Projects = (props) => (
-    <Layout title={props.url.pathname}>
+    <Layout>
 
         <div className="projects-container">
             <div className="projects-inner-container">
