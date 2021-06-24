@@ -5,7 +5,7 @@ import { technologies } from '../data/data';
 
 
 const Tech = (props) => (
-    <Layout title={props.url.pathname}>
+    <Layout>
         <div className="tech-container">
             <div className="tech-inner-container">
                 <div className="tech-text">
