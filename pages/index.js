@@ -39,15 +39,15 @@ export default function Home() {
             <div className={styles.intro_one_container}>
               <p style={{color: "#586c7a"}}>// My self introduction</p>
               <p><span style={{color: "#ec91ff"}}>name</span> &#123;</p>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;first_name: <span style={{color: "#73d9ff"}}>"Anubhav"</span></p>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;last_name: <span style={{color: "#73d9ff"}}>"Bhambri"</span></p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;first_name: <span style={{color: "#73d9ff"}}>&quot;Anubhav&quot;</span></p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;last_name: <span style={{color: "#73d9ff"}}>&quot;Bhambri&quot;</span></p>
               <p className={styles.closing_bracket}>&#125;</p>
             </div>
             <div className={styles.intro_two_container}>
               <p><span style={{color: "#ec91ff"}}>what_i_do</span> &#123;</p>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;profession: <span style={{color: "#73d9ff"}}>"Developer"</span></p>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;expertise: <span style={{color: "#73d9ff"}}>"Backend"</span></p>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;language: <span style={{color: "#73d9ff"}}>"Javascript"</span></p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;profession: <span style={{color: "#73d9ff"}}>&quot;Developer&quot;</span></p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;expertise: <span style={{color: "#73d9ff"}}>&quot;Backend&quot;</span></p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;language: <span style={{color: "#73d9ff"}}>&quot;Javascript&quot;</span></p>
               <p className={styles.closing_bracket}>&#125;</p>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function Home() {
                 Years
                 <strong>;</strong>
               </h2>
-              <p>It’s the 31st of December and 2015 is about to end. For so many years I have had been reading posts from different software developers about how they spent the year and how they were planning.</p>
+              <p>It's the 31st of December and 2015 is about to end. For so many years I have had been reading posts from different software developers about how they spent the year and how they were planning.</p>
             </div>
             <div className={styles.experience_cards_container}>
               <div className={styles.experience_card_container}>
