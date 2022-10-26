@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn as linkedin, faTwitter as twitter, faGithub as github } from '@fortawesome/free-brands-svg-icons';
 
 export default function Home() {
+  const introString = "// My self introduction";
   return (
     <div className={styles.container}>
       <Head>
@@ -35,9 +36,9 @@ export default function Home() {
         <section className={styles.intro}>
           <div className={styles.intro_inner_container}>
             <h2 className={styles.hello}>Hello</h2>
-            <h3 className={styles.title}>I'm Anubhav</h3>
+            <h3 className={styles.title}>I&apos;m Anubhav</h3>
             <div className={styles.intro_one_container}>
-              <p style={{color: "#586c7a"}}>// My self introduction</p>
+              <p style={{color: "#586c7a"}}>{introString}</p>
               <p><span style={{color: "#ec91ff"}}>name</span> &#123;</p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;first_name: <span style={{color: "#73d9ff"}}>&quot;Anubhav&quot;</span></p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;last_name: <span style={{color: "#73d9ff"}}>&quot;Bhambri&quot;</span></p>
@@ -62,7 +63,7 @@ export default function Home() {
                 Years
                 <strong>;</strong>
               </h2>
-              <p>It's the 31st of December and 2015 is about to end. For so many years I have had been reading posts from different software developers about how they spent the year and how they were planning.</p>
+              <p>It&apos;s the 31st of December and 2015 is about to end. For so many years I have had been reading posts from different software developers about how they spent the year and how they were planning.</p>
             </div>
             <div className={styles.experience_cards_container}>
               <div className={styles.experience_card_container}>
@@ -106,7 +107,7 @@ export default function Home() {
                   Back-End Developer
                 </h3>
                 <p>
-                  It’s the 31st of December and 2015 is about to end. For so many years I have had been reading. dummy text
+                  It&apos;s the 31st of December and 2015 is about to end. For so many years I have had been reading. dummy text
                 </p>
               </div>
             </div>
@@ -149,7 +150,7 @@ export default function Home() {
           <div className={styles.socials_inner_container}>
             <div className={styles.heading_container}>
 
-              <h2 className={styles.shy}>Don't be shy,</h2>
+              <h2 className={styles.shy}>Don&apos;t be shy,</h2>
               <h2 className={styles.hi}>say hi;</h2>
             </div>
             <div className={styles.lower_container}>
